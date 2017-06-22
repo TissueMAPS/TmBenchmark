@@ -7,14 +7,12 @@ Requirements
 
 Tests will be controlled from a local machine, which will interact with remote servers running in the cloud over the internet (using *SSH* for deployment and *HTTP* for performing the actual tests).
 
-Operating system
-++++++++++++++++
+#### Operating system
 
 The controlling machine should be *UNIX* based, i.e. either *MacOSX* or *Linux*, mainly because [Ansible](https://docs.ansible.com/ansible/), which we use to deploy *TissueMAPS* on the remote servers, doesn't run on *Windows* (see [Ansible docs](https://docs.ansible.com/ansible/intro_windows.html#using-a-windows-control-machine) for details).
 
 
-Software
-++++++++
+#### Software
 
 The controlling machine further needs to have [Python](https://www.python.org/) installed (both Python 2 and 3 are supported) as well as its package manager [pip](https://pip.pypa.io/en/stable/).
 
@@ -26,8 +24,7 @@ Install the [tmdeploy](https://pypi.python.org/pypi/tmdeploy) and [tmclient](htt
 
     $ pip install tmdeploy tmclient
 
-Data
-++++
+#### Data
 
 You will need a dataset to run the tests against. We are working on making datasets publicly available.
 
