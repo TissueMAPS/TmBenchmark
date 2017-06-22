@@ -35,7 +35,7 @@ You will need a dataset to run the tests against. We are working on making datas
 Install system packages as `root` user:
 
     $ yum update
-    $ yum install -y git gcc epel-release openssl-devel python-setuptools python-pip
+    $ yum install -y git gcc epel-release openssl-devel python-devel python-setuptools python-pip
 
     $ pip install -U pip setuptools
 
