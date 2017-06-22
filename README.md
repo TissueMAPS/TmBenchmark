@@ -30,18 +30,18 @@ Install the [tmdeploy](https://pypi.python.org/pypi/tmdeploy) and [tmclient](htt
 You will need a dataset to run the tests against. We are working on making datasets publicly available.
 
 
-#### Example for CentOS-7 Linux distribution
+#### Installation for CentOS-7 Linux distribution
 
 Install system packages as `root` user:
 
-    yum update
-    yum install -y git gcc epel-release openssl-devel python-setuptools python-pip
+    $ yum update
+    $ yum install -y git gcc epel-release openssl-devel python-setuptools python-pip
 
-    pip install -U pip setuptools
+    $ pip install -U pip setuptools
 
 Install Python packages as non-privilaged user:
 
-    pip install --user tmclient tmdeploy
+    $ pip install --user tmclient tmdeploy
 
 
 Deploying servers in the cloud
