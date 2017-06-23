@@ -15,7 +15,7 @@ The controlling machine should be *UNIX* based, i.e. either *MacOSX* or *Linux*,
 
 The controlling machine further needs to have [Python](https://www.python.org/) installed (both Python 2 and 3 are supported) as well as its package manager [pip](https://pip.pypa.io/en/stable/).
 
-In addition, it needs [OpenSSH](https://www.openssh.com/), [OpenSSL](https://www.openssl.org/) and the [GCC](https://gcc.gnu.org/>) compiler.
+In addition, it needs [OpenSSH](https://www.openssh.com/), [OpenSSL](https://www.openssl.org/), [GCC](https://gcc.gnu.org/>) and [time](https://www.gnu.org/software/time/).
 
 Install the [tmdeploy](https://pypi.python.org/pypi/tmdeploy) and [tmclient](https://pypi.python.org/pypi/tmclient) Python packages from PyPi. For this, you can use a [Python virtual environment](https://virtualenv.pypa.io/en/stable/):
 
@@ -35,7 +35,7 @@ You will need a dataset to run the tests against. We are working on making datas
 Install system packages as `root` user:
 
     $ yum update
-    $ yum install -y git gcc epel-release openssl-devel python-devel python-setuptools python-pip
+    $ yum install -y git gcc epel-release time openssl-devel python-devel python-setuptools python-pip
 
     $ pip install -U pip setuptools
 
