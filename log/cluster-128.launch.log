@@ -1,0 +1,1959 @@
+2017-06-24 16:31:18 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-frontend-001"
+2017-06-24 16:31:18 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-001"
+2017-06-24 16:31:18 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-002"
+2017-06-24 16:31:19 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-003"
+2017-06-24 16:31:19 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-004"
+2017-06-24 16:31:19 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-005"
+2017-06-24 16:31:19 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-006"
+2017-06-24 16:31:20 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-007"
+2017-06-24 16:31:20 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-008"
+2017-06-24 16:31:20 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-009"
+2017-06-24 16:31:20 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-010"
+2017-06-24 16:31:20 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-011"
+2017-06-24 16:31:21 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-012"
+2017-06-24 16:31:21 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-013"
+2017-06-24 16:31:21 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-014"
+2017-06-24 16:31:21 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-015"
+2017-06-24 16:31:21 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-016"
+2017-06-24 16:31:21 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-017"
+2017-06-24 16:31:22 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-018"
+2017-06-24 16:31:22 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-019"
+2017-06-24 16:31:22 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-020"
+2017-06-24 16:31:22 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-021"
+2017-06-24 16:31:22 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-022"
+2017-06-24 16:31:23 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-023"
+2017-06-24 16:31:23 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-024"
+2017-06-24 16:31:23 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-025"
+2017-06-24 16:31:23 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-026"
+2017-06-24 16:31:23 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-027"
+2017-06-24 16:31:24 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-028"
+2017-06-24 16:31:24 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-029"
+2017-06-24 16:31:24 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-030"
+2017-06-24 16:31:24 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-031"
+2017-06-24 16:31:24 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-032"
+2017-06-24 16:31:25 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-ganglia-server-001"
+2017-06-24 16:31:25 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-frontend-001"
+2017-06-24 16:31:25 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-001"
+2017-06-24 16:31:25 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-002"
+2017-06-24 16:31:25 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-003"
+2017-06-24 16:31:26 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-004"
+2017-06-24 16:31:26 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-005"
+2017-06-24 16:31:26 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-006"
+2017-06-24 16:31:26 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-007"
+2017-06-24 16:31:26 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-008"
+2017-06-24 16:31:27 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-009"
+2017-06-24 16:31:27 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-010"
+2017-06-24 16:31:27 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-011"
+2017-06-24 16:31:27 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-012"
+2017-06-24 16:31:27 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-013"
+2017-06-24 16:31:27 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-014"
+2017-06-24 16:31:28 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-015"
+2017-06-24 16:31:28 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-016"
+2017-06-24 16:31:28 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-017"
+2017-06-24 16:31:28 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-018"
+2017-06-24 16:31:28 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-019"
+2017-06-24 16:31:28 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-020"
+2017-06-24 16:31:29 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-021"
+2017-06-24 16:31:29 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-022"
+2017-06-24 16:31:29 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-023"
+2017-06-24 16:31:29 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-024"
+2017-06-24 16:31:29 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-025"
+2017-06-24 16:31:29 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-026"
+2017-06-24 16:31:30 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-027"
+2017-06-24 16:31:30 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-028"
+2017-06-24 16:31:30 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-029"
+2017-06-24 16:31:30 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-030"
+2017-06-24 16:31:30 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-031"
+2017-06-24 16:31:31 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-032"
+2017-06-24 16:31:31 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-postgresql-master-001"
+2017-06-24 16:31:31 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-postgresql-worker-001"
+2017-06-24 16:31:31 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-postgresql-worker-002"
+2017-06-24 16:31:31 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-postgresql-worker-003"
+2017-06-24 16:31:31 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-postgresql-worker-004"
+2017-06-24 16:31:32 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-postgresql-worker-005"
+2017-06-24 16:31:32 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-postgresql-worker-006"
+2017-06-24 16:31:32 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-postgresql-worker-007"
+2017-06-24 16:31:32 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-postgresql-worker-008"
+2017-06-24 16:31:32 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-glusterfs-server-001"
+2017-06-24 16:31:32 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-glusterfs-server-002"
+2017-06-24 16:31:33 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-glusterfs-server-003"
+2017-06-24 16:31:33 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-glusterfs-server-004"
+2017-06-24 16:31:33 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-glusterfs-server-005"
+2017-06-24 16:31:33 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-glusterfs-server-006"
+2017-06-24 16:31:33 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-glusterfs-server-007"
+2017-06-24 16:31:33 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-glusterfs-server-008"
+2017-06-24 16:31:34 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-postgresql-worker-001"
+2017-06-24 16:31:34 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-postgresql-worker-002"
+2017-06-24 16:31:34 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-postgresql-worker-003"
+2017-06-24 16:31:34 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-postgresql-worker-004"
+2017-06-24 16:31:34 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-postgresql-worker-005"
+2017-06-24 16:31:35 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-postgresql-worker-006"
+2017-06-24 16:31:35 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-postgresql-worker-007"
+2017-06-24 16:31:35 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-postgresql-worker-008"
+2017-06-24 16:31:35 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-001"
+2017-06-24 16:31:35 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-002"
+2017-06-24 16:31:36 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-003"
+2017-06-24 16:31:36 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-004"
+2017-06-24 16:31:36 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-005"
+2017-06-24 16:31:36 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-006"
+2017-06-24 16:31:36 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-007"
+2017-06-24 16:31:36 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-008"
+2017-06-24 16:31:37 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-009"
+2017-06-24 16:31:37 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-010"
+2017-06-24 16:31:37 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-011"
+2017-06-24 16:31:37 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-012"
+2017-06-24 16:31:37 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-013"
+2017-06-24 16:31:38 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-014"
+2017-06-24 16:31:38 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-015"
+2017-06-24 16:31:38 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-016"
+2017-06-24 16:31:38 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-017"
+2017-06-24 16:31:38 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-018"
+2017-06-24 16:31:38 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-019"
+2017-06-24 16:31:39 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-020"
+2017-06-24 16:31:39 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-021"
+2017-06-24 16:31:39 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-022"
+2017-06-24 16:31:39 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-023"
+2017-06-24 16:31:39 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-024"
+2017-06-24 16:31:40 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-025"
+2017-06-24 16:31:40 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-026"
+2017-06-24 16:31:40 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-027"
+2017-06-24 16:31:40 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-028"
+2017-06-24 16:31:40 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-029"
+2017-06-24 16:31:40 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-030"
+2017-06-24 16:31:41 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-031"
+2017-06-24 16:31:41 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-032"
+2017-06-24 16:31:41 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-001"
+2017-06-24 16:31:41 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-002"
+2017-06-24 16:31:41 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-003"
+2017-06-24 16:31:41 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-004"
+2017-06-24 16:31:42 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-005"
+2017-06-24 16:31:42 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-006"
+2017-06-24 16:31:42 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-007"
+2017-06-24 16:31:42 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-008"
+2017-06-24 16:31:42 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-009"
+2017-06-24 16:31:43 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-010"
+2017-06-24 16:31:43 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-011"
+2017-06-24 16:31:43 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-012"
+2017-06-24 16:31:43 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-013"
+2017-06-24 16:31:43 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-014"
+2017-06-24 16:31:44 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-015"
+2017-06-24 16:31:44 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-016"
+2017-06-24 16:31:44 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-017"
+2017-06-24 16:31:44 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-018"
+2017-06-24 16:31:44 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-019"
+2017-06-24 16:31:44 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-020"
+2017-06-24 16:31:45 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-021"
+2017-06-24 16:31:45 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-022"
+2017-06-24 16:31:45 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-023"
+2017-06-24 16:31:45 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-024"
+2017-06-24 16:31:45 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-025"
+2017-06-24 16:31:45 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-026"
+2017-06-24 16:31:46 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-027"
+2017-06-24 16:31:46 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-028"
+2017-06-24 16:31:46 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-029"
+2017-06-24 16:31:46 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-030"
+2017-06-24 16:31:46 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-031"
+2017-06-24 16:31:46 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-worker-032"
+2017-06-24 16:31:47 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-frontend-001"
+2017-06-24 16:31:47 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-slurm-frontend-001"
+2017-06-24 16:31:47 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-glusterfs-server-001"
+2017-06-24 16:31:47 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-glusterfs-server-002"
+2017-06-24 16:31:47 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-glusterfs-server-003"
+2017-06-24 16:31:48 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-glusterfs-server-004"
+2017-06-24 16:31:48 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-glusterfs-server-005"
+2017-06-24 16:31:48 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-glusterfs-server-006"
+2017-06-24 16:31:48 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-glusterfs-server-007"
+2017-06-24 16:31:48 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-glusterfs-server-008"
+2017-06-24 16:31:49 | WARNING  | tm_inventory                             | no instance found for host "cluster-128-postgresql-master-001"
+
+PLAY [Provision virtual machine instances] ***************************************************************************************************************************************
+
+TASK [Gathering Facts] ***********************************************************************************************************************************************************
+ok: [cluster-128-slurm-worker-007]
+ok: [cluster-128-slurm-worker-011]
+ok: [cluster-128-slurm-worker-002]
+ok: [cluster-128-slurm-worker-001]
+ok: [cluster-128-slurm-worker-009]
+ok: [cluster-128-slurm-worker-005]
+ok: [cluster-128-slurm-worker-010]
+ok: [cluster-128-slurm-worker-016]
+ok: [cluster-128-slurm-worker-004]
+ok: [cluster-128-slurm-worker-013]
+ok: [cluster-128-slurm-worker-020]
+ok: [cluster-128-slurm-worker-015]
+ok: [cluster-128-slurm-worker-018]
+ok: [cluster-128-slurm-worker-012]
+ok: [cluster-128-slurm-worker-003]
+ok: [cluster-128-slurm-worker-017]
+ok: [cluster-128-slurm-worker-006]
+ok: [cluster-128-slurm-worker-019]
+ok: [cluster-128-slurm-worker-008]
+ok: [cluster-128-slurm-worker-014]
+ok: [cluster-128-slurm-worker-021]
+ok: [cluster-128-slurm-worker-023]
+ok: [cluster-128-slurm-worker-024]
+ok: [cluster-128-slurm-worker-029]
+ok: [cluster-128-slurm-worker-026]
+ok: [cluster-128-slurm-worker-022]
+ok: [cluster-128-slurm-worker-027]
+ok: [cluster-128-slurm-worker-028]
+ok: [cluster-128-slurm-worker-030]
+ok: [cluster-128-slurm-worker-032]
+ok: [cluster-128-slurm-worker-031]
+ok: [cluster-128-slurm-worker-025]
+ok: [cluster-128-slurm-frontend-001]
+ok: [cluster-128-postgresql-worker-001]
+ok: [cluster-128-ganglia-server-001]
+ok: [cluster-128-postgresql-worker-002]
+ok: [cluster-128-postgresql-worker-003]
+ok: [cluster-128-postgresql-worker-005]
+ok: [cluster-128-postgresql-master-001]
+ok: [cluster-128-postgresql-worker-004]
+ok: [cluster-128-postgresql-worker-006]
+ok: [cluster-128-glusterfs-server-001]
+ok: [cluster-128-glusterfs-server-006]
+ok: [cluster-128-postgresql-worker-007]
+ok: [cluster-128-postgresql-worker-008]
+ok: [cluster-128-glusterfs-server-007]
+ok: [cluster-128-glusterfs-server-002]
+ok: [cluster-128-glusterfs-server-005]
+ok: [cluster-128-glusterfs-server-003]
+ok: [cluster-128-glusterfs-server-008]
+ok: [cluster-128-glusterfs-server-004]
+
+TASK [cloud-instance : include] **************************************************************************************************************************************************
+included: /home/centos/.local/lib/python2.7/site-packages/tmdeploy/share/playbooks/tissuemaps/roles/cloud-instance/tasks/os.yml for cluster-128-slurm-worker-001, cluster-128-slurm-worker-003, cluster-128-slurm-worker-002, cluster-128-slurm-worker-004, cluster-128-slurm-worker-005, cluster-128-slurm-worker-006, cluster-128-slurm-worker-007, cluster-128-slurm-worker-008, cluster-128-slurm-worker-009, cluster-128-slurm-worker-010, cluster-128-slurm-worker-011, cluster-128-slurm-worker-012, cluster-128-slurm-worker-013, cluster-128-slurm-worker-014, cluster-128-slurm-worker-015, cluster-128-slurm-worker-016, cluster-128-slurm-worker-017, cluster-128-slurm-worker-018, cluster-128-slurm-worker-019, cluster-128-slurm-worker-020, cluster-128-slurm-worker-021, cluster-128-slurm-worker-022, cluster-128-slurm-worker-023, cluster-128-slurm-worker-024, cluster-128-slurm-worker-025, cluster-128-slurm-worker-026, cluster-128-slurm-worker-027, cluster-128-slurm-worker-028, cluster-128-slurm-worker-029, cluster-128-slurm-worker-030, cluster-128-slurm-worker-031, cluster-128-slurm-worker-032, cluster-128-slurm-frontend-001, cluster-128-ganglia-server-001, cluster-128-postgresql-master-001, cluster-128-postgresql-worker-002, cluster-128-postgresql-worker-001, cluster-128-postgresql-worker-003, cluster-128-postgresql-worker-004, cluster-128-postgresql-worker-005, cluster-128-postgresql-worker-006, cluster-128-postgresql-worker-007, cluster-128-postgresql-worker-008, cluster-128-glusterfs-server-001, cluster-128-glusterfs-server-002, cluster-128-glusterfs-server-003, cluster-128-glusterfs-server-004, cluster-128-glusterfs-server-005, cluster-128-glusterfs-server-006, cluster-128-glusterfs-server-007, cluster-128-glusterfs-server-008
+
+TASK [cloud-instance : Create network] *******************************************************************************************************************************************
+changed: [cluster-128-slurm-worker-001 -> localhost]
+
+TASK [cloud-instance : Create subnetwork] ****************************************************************************************************************************************
+changed: [cluster-128-slurm-worker-001 -> localhost]
+
+TASK [cloud-instance : Create router] ********************************************************************************************************************************************
+changed: [cluster-128-slurm-worker-001 -> localhost]
+
+TASK [cloud-instance : Upload public SSH key] ************************************************************************************************************************************
+ok: [cluster-128-slurm-worker-001 -> localhost]
+
+TASK [cloud-instance : Create web security group] ********************************************************************************************************************************
+ok: [cluster-128-slurm-worker-001 -> localhost]
+
+TASK [cloud-instance : Create ingress TCP (HTTP 8080) rule for web security group] ***********************************************************************************************
+ok: [cluster-128-slurm-worker-001 -> localhost]
+
+TASK [cloud-instance : Create ingress TCP (HTTP 80) rule for web security group] *************************************************************************************************
+ok: [cluster-128-slurm-worker-001 -> localhost]
+
+TASK [cloud-instance : Create ingress TCP (HTTPS 443) rule for web security group] ***********************************************************************************************
+ok: [cluster-128-slurm-worker-001 -> localhost]
+
+TASK [cloud-instance : Create ingress TCP (SSH 22) rule for web security group] **************************************************************************************************
+ok: [cluster-128-slurm-worker-001 -> localhost]
+
+TASK [cloud-instance : Create ingress ICMP (Ping) rule for web security group] ***************************************************************************************************
+ok: [cluster-128-slurm-worker-001 -> localhost]
+
+TASK [cloud-instance : Create compute-storage security group] ********************************************************************************************************************
+ok: [cluster-128-slurm-worker-001 -> localhost]
+
+TASK [cloud-instance : Create ingress TCP rule I for compute-storage security group] *********************************************************************************************
+ok: [cluster-128-slurm-worker-001 -> localhost]
+
+TASK [cloud-instance : Create ingress TCP rule II for compute-storage security group] ********************************************************************************************
+ok: [cluster-128-slurm-worker-001 -> localhost]
+
+TASK [cloud-instance : Create ingress UDP rule I for compute-storage security group] *********************************************************************************************
+ok: [cluster-128-slurm-worker-001 -> localhost]
+
+TASK [cloud-instance : Create ingress UDP rule II for compute-storage security group] ********************************************************************************************
+ok: [cluster-128-slurm-worker-001 -> localhost]
+
+TASK [cloud-instance : Create ingress ICMP (Ping) rule I for compute-storage security group] *************************************************************************************
+ok: [cluster-128-slurm-worker-001 -> localhost]
+
+TASK [cloud-instance : Create ingress ICMP (Ping) rule II for compute-storage security group] ************************************************************************************
+ok: [cluster-128-slurm-worker-001 -> localhost]
+
+TASK [cloud-instance : Create instance] ******************************************************************************************************************************************
+changed: [cluster-128-slurm-worker-006 -> localhost]
+changed: [cluster-128-slurm-worker-007 -> localhost]
+changed: [cluster-128-slurm-worker-018 -> localhost]
+changed: [cluster-128-slurm-worker-010 -> localhost]
+changed: [cluster-128-slurm-worker-005 -> localhost]
+changed: [cluster-128-slurm-worker-017 -> localhost]
+changed: [cluster-128-slurm-worker-002 -> localhost]
+changed: [cluster-128-slurm-worker-011 -> localhost]
+changed: [cluster-128-slurm-worker-008 -> localhost]
+changed: [cluster-128-slurm-worker-003 -> localhost]
+changed: [cluster-128-slurm-worker-015 -> localhost]
+changed: [cluster-128-slurm-worker-020 -> localhost]
+changed: [cluster-128-slurm-worker-019 -> localhost]
+changed: [cluster-128-slurm-worker-001 -> localhost]
+changed: [cluster-128-slurm-worker-004 -> localhost]
+changed: [cluster-128-slurm-worker-009 -> localhost]
+changed: [cluster-128-slurm-worker-012 -> localhost]
+changed: [cluster-128-slurm-worker-014 -> localhost]
+changed: [cluster-128-slurm-worker-013 -> localhost]
+changed: [cluster-128-slurm-worker-016 -> localhost]
+changed: [cluster-128-slurm-worker-023 -> localhost]
+changed: [cluster-128-slurm-worker-024 -> localhost]
+changed: [cluster-128-slurm-worker-022 -> localhost]
+changed: [cluster-128-slurm-worker-025 -> localhost]
+changed: [cluster-128-slurm-worker-021 -> localhost]
+changed: [cluster-128-slurm-worker-029 -> localhost]
+changed: [cluster-128-slurm-worker-026 -> localhost]
+changed: [cluster-128-slurm-worker-028 -> localhost]
+changed: [cluster-128-slurm-worker-027 -> localhost]
+changed: [cluster-128-postgresql-master-001 -> localhost]
+changed: [cluster-128-postgresql-worker-004 -> localhost]
+changed: [cluster-128-slurm-frontend-001 -> localhost]
+changed: [cluster-128-postgresql-worker-003 -> localhost]
+changed: [cluster-128-slurm-worker-030 -> localhost]
+changed: [cluster-128-slurm-worker-032 -> localhost]
+changed: [cluster-128-ganglia-server-001 -> localhost]
+changed: [cluster-128-postgresql-worker-005 -> localhost]
+changed: [cluster-128-postgresql-worker-001 -> localhost]
+changed: [cluster-128-slurm-worker-031 -> localhost]
+changed: [cluster-128-postgresql-worker-002 -> localhost]
+changed: [cluster-128-postgresql-worker-007 -> localhost]
+changed: [cluster-128-postgresql-worker-008 -> localhost]
+changed: [cluster-128-postgresql-worker-006 -> localhost]
+changed: [cluster-128-glusterfs-server-001 -> localhost]
+changed: [cluster-128-glusterfs-server-002 -> localhost]
+changed: [cluster-128-glusterfs-server-006 -> localhost]
+changed: [cluster-128-glusterfs-server-004 -> localhost]
+changed: [cluster-128-glusterfs-server-008 -> localhost]
+changed: [cluster-128-glusterfs-server-003 -> localhost]
+changed: [cluster-128-glusterfs-server-007 -> localhost]
+changed: [cluster-128-glusterfs-server-005 -> localhost]
+
+TASK [cloud-instance : Add new host to inventory] ********************************************************************************************************************************
+changed: [cluster-128-slurm-worker-001]
+
+TASK [cloud-instance : Create storage volume] ************************************************************************************************************************************
+skipping: [cluster-128-slurm-worker-001]
+skipping: [cluster-128-slurm-worker-002]
+skipping: [cluster-128-slurm-worker-003]
+skipping: [cluster-128-slurm-worker-004]
+skipping: [cluster-128-slurm-worker-005]
+skipping: [cluster-128-slurm-worker-006]
+skipping: [cluster-128-slurm-worker-007]
+skipping: [cluster-128-slurm-worker-008]
+skipping: [cluster-128-slurm-worker-009]
+skipping: [cluster-128-slurm-worker-010]
+skipping: [cluster-128-slurm-worker-011]
+skipping: [cluster-128-slurm-worker-012]
+skipping: [cluster-128-slurm-worker-013]
+skipping: [cluster-128-slurm-worker-014]
+skipping: [cluster-128-slurm-worker-015]
+skipping: [cluster-128-slurm-worker-016]
+skipping: [cluster-128-slurm-worker-017]
+skipping: [cluster-128-slurm-worker-018]
+skipping: [cluster-128-slurm-worker-019]
+skipping: [cluster-128-slurm-worker-020]
+skipping: [cluster-128-slurm-worker-021]
+skipping: [cluster-128-slurm-worker-022]
+skipping: [cluster-128-slurm-worker-023]
+skipping: [cluster-128-slurm-worker-024]
+skipping: [cluster-128-slurm-worker-025]
+skipping: [cluster-128-slurm-worker-027]
+skipping: [cluster-128-slurm-worker-026]
+skipping: [cluster-128-slurm-worker-028]
+skipping: [cluster-128-slurm-worker-029]
+skipping: [cluster-128-slurm-worker-030]
+skipping: [cluster-128-slurm-worker-031]
+skipping: [cluster-128-slurm-worker-032]
+skipping: [cluster-128-slurm-frontend-001]
+skipping: [cluster-128-ganglia-server-001]
+changed: [cluster-128-postgresql-worker-002 -> localhost]
+changed: [cluster-128-postgresql-worker-007 -> localhost]
+changed: [cluster-128-glusterfs-server-005 -> localhost]
+changed: [cluster-128-postgresql-master-001 -> localhost]
+changed: [cluster-128-postgresql-worker-006 -> localhost]
+changed: [cluster-128-glusterfs-server-001 -> localhost]
+changed: [cluster-128-postgresql-worker-005 -> localhost]
+changed: [cluster-128-postgresql-worker-001 -> localhost]
+changed: [cluster-128-postgresql-worker-008 -> localhost]
+changed: [cluster-128-glusterfs-server-006 -> localhost]
+changed: [cluster-128-glusterfs-server-003 -> localhost]
+changed: [cluster-128-glusterfs-server-002 -> localhost]
+changed: [cluster-128-postgresql-worker-003 -> localhost]
+changed: [cluster-128-glusterfs-server-007 -> localhost]
+changed: [cluster-128-glusterfs-server-008 -> localhost]
+changed: [cluster-128-postgresql-worker-004 -> localhost]
+changed: [cluster-128-glusterfs-server-004 -> localhost]
+
+TASK [cloud-instance : Attach storage volume to instance] ************************************************************************************************************************
+skipping: [cluster-128-slurm-worker-002]
+skipping: [cluster-128-slurm-worker-003]
+skipping: [cluster-128-slurm-worker-001]
+skipping: [cluster-128-slurm-worker-004]
+skipping: [cluster-128-slurm-worker-005]
+skipping: [cluster-128-slurm-worker-006]
+skipping: [cluster-128-slurm-worker-007]
+skipping: [cluster-128-slurm-worker-009]
+skipping: [cluster-128-slurm-worker-008]
+skipping: [cluster-128-slurm-worker-010]
+skipping: [cluster-128-slurm-worker-012]
+skipping: [cluster-128-slurm-worker-011]
+skipping: [cluster-128-slurm-worker-013]
+skipping: [cluster-128-slurm-worker-014]
+skipping: [cluster-128-slurm-worker-015]
+skipping: [cluster-128-slurm-worker-016]
+skipping: [cluster-128-slurm-worker-017]
+skipping: [cluster-128-slurm-worker-018]
+skipping: [cluster-128-slurm-worker-019]
+skipping: [cluster-128-slurm-worker-020]
+skipping: [cluster-128-slurm-worker-021]
+skipping: [cluster-128-slurm-worker-028]
+skipping: [cluster-128-slurm-worker-029]
+skipping: [cluster-128-slurm-worker-027]
+skipping: [cluster-128-slurm-worker-026]
+skipping: [cluster-128-slurm-worker-030]
+skipping: [cluster-128-slurm-worker-031]
+skipping: [cluster-128-slurm-worker-025]
+skipping: [cluster-128-slurm-worker-022]
+skipping: [cluster-128-slurm-worker-032]
+skipping: [cluster-128-slurm-worker-024]
+skipping: [cluster-128-slurm-frontend-001]
+skipping: [cluster-128-slurm-worker-023]
+skipping: [cluster-128-ganglia-server-001]
+changed: [cluster-128-glusterfs-server-008 -> localhost]
+changed: [cluster-128-postgresql-worker-006 -> localhost]
+changed: [cluster-128-postgresql-worker-003 -> localhost]
+changed: [cluster-128-postgresql-worker-008 -> localhost]
+changed: [cluster-128-postgresql-worker-002 -> localhost]
+changed: [cluster-128-postgresql-worker-005 -> localhost]
+changed: [cluster-128-glusterfs-server-002 -> localhost]
+changed: [cluster-128-postgresql-worker-007 -> localhost]
+changed: [cluster-128-postgresql-worker-001 -> localhost]
+changed: [cluster-128-postgresql-master-001 -> localhost]
+changed: [cluster-128-glusterfs-server-003 -> localhost]
+changed: [cluster-128-glusterfs-server-007 -> localhost]
+changed: [cluster-128-glusterfs-server-005 -> localhost]
+changed: [cluster-128-glusterfs-server-001 -> localhost]
+changed: [cluster-128-postgresql-worker-004 -> localhost]
+changed: [cluster-128-glusterfs-server-004 -> localhost]
+changed: [cluster-128-glusterfs-server-006 -> localhost]
+
+TASK [cloud-instance : Refresh dynamic inventory] ********************************************************************************************************************************
+changed: [cluster-128-slurm-worker-001]
+
+TASK [cloud-instance : pause] ****************************************************************************************************************************************************
+Pausing for 60 seconds
+(ctrl+C then 'C' = continue early, ctrl+C then 'A' = abort)
+ok: [cluster-128-slurm-worker-001]
+
+TASK [cloud-instance : Make sure Python is installed] ****************************************************************************************************************************
+skipping: [cluster-128-slurm-worker-001]
+skipping: [cluster-128-slurm-worker-002]
+skipping: [cluster-128-slurm-worker-003]
+skipping: [cluster-128-slurm-worker-004]
+skipping: [cluster-128-slurm-worker-005]
+skipping: [cluster-128-slurm-worker-006]
+skipping: [cluster-128-slurm-worker-007]
+skipping: [cluster-128-slurm-worker-008]
+skipping: [cluster-128-slurm-worker-009]
+skipping: [cluster-128-slurm-worker-010]
+skipping: [cluster-128-slurm-worker-011]
+skipping: [cluster-128-slurm-worker-012]
+skipping: [cluster-128-slurm-worker-013]
+skipping: [cluster-128-slurm-worker-014]
+skipping: [cluster-128-slurm-worker-015]
+skipping: [cluster-128-slurm-worker-016]
+skipping: [cluster-128-slurm-worker-017]
+skipping: [cluster-128-slurm-worker-018]
+skipping: [cluster-128-slurm-worker-019]
+skipping: [cluster-128-slurm-worker-020]
+skipping: [cluster-128-slurm-worker-021]
+skipping: [cluster-128-slurm-worker-022]
+skipping: [cluster-128-slurm-worker-023]
+skipping: [cluster-128-slurm-worker-024]
+skipping: [cluster-128-slurm-worker-025]
+skipping: [cluster-128-slurm-worker-026]
+skipping: [cluster-128-slurm-worker-027]
+skipping: [cluster-128-slurm-worker-028]
+skipping: [cluster-128-slurm-worker-029]
+skipping: [cluster-128-slurm-worker-030]
+skipping: [cluster-128-slurm-worker-031]
+skipping: [cluster-128-slurm-worker-032]
+skipping: [cluster-128-slurm-frontend-001]
+skipping: [cluster-128-ganglia-server-001]
+skipping: [cluster-128-postgresql-master-001]
+skipping: [cluster-128-postgresql-worker-001]
+skipping: [cluster-128-postgresql-worker-002]
+skipping: [cluster-128-postgresql-worker-003]
+skipping: [cluster-128-postgresql-worker-004]
+skipping: [cluster-128-postgresql-worker-005]
+skipping: [cluster-128-postgresql-worker-006]
+skipping: [cluster-128-postgresql-worker-007]
+skipping: [cluster-128-postgresql-worker-008]
+skipping: [cluster-128-glusterfs-server-001]
+skipping: [cluster-128-glusterfs-server-002]
+skipping: [cluster-128-glusterfs-server-003]
+skipping: [cluster-128-glusterfs-server-004]
+skipping: [cluster-128-glusterfs-server-005]
+skipping: [cluster-128-glusterfs-server-006]
+skipping: [cluster-128-glusterfs-server-007]
+skipping: [cluster-128-glusterfs-server-008]
+
+TASK [cloud-instance : Check if the volume has already been formatted and mounted] ***********************************************************************************************
+skipping: [cluster-128-slurm-worker-001]
+skipping: [cluster-128-slurm-worker-002]
+skipping: [cluster-128-slurm-worker-003]
+skipping: [cluster-128-slurm-worker-004]
+skipping: [cluster-128-slurm-worker-005]
+skipping: [cluster-128-slurm-worker-006]
+skipping: [cluster-128-slurm-worker-007]
+skipping: [cluster-128-slurm-worker-008]
+skipping: [cluster-128-slurm-worker-009]
+skipping: [cluster-128-slurm-worker-010]
+skipping: [cluster-128-slurm-worker-011]
+skipping: [cluster-128-slurm-worker-012]
+skipping: [cluster-128-slurm-worker-013]
+skipping: [cluster-128-slurm-worker-014]
+skipping: [cluster-128-slurm-worker-015]
+skipping: [cluster-128-slurm-worker-016]
+skipping: [cluster-128-slurm-worker-017]
+skipping: [cluster-128-slurm-worker-018]
+skipping: [cluster-128-slurm-worker-019]
+skipping: [cluster-128-slurm-worker-020]
+skipping: [cluster-128-slurm-worker-021]
+skipping: [cluster-128-slurm-worker-022]
+skipping: [cluster-128-slurm-worker-023]
+skipping: [cluster-128-slurm-worker-024]
+skipping: [cluster-128-slurm-worker-025]
+skipping: [cluster-128-slurm-worker-026]
+skipping: [cluster-128-slurm-worker-027]
+skipping: [cluster-128-slurm-worker-028]
+skipping: [cluster-128-slurm-worker-029]
+skipping: [cluster-128-slurm-worker-030]
+skipping: [cluster-128-slurm-worker-031]
+skipping: [cluster-128-slurm-worker-032]
+skipping: [cluster-128-slurm-frontend-001]
+skipping: [cluster-128-ganglia-server-001]
+ok: [cluster-128-postgresql-worker-005 -> 10.65.8.43]
+ok: [cluster-128-postgresql-worker-002 -> 10.65.8.41]
+ok: [cluster-128-postgresql-worker-003 -> 10.65.8.42]
+ok: [cluster-128-postgresql-worker-006 -> 10.65.8.45]
+ok: [cluster-128-postgresql-worker-004 -> 10.65.8.40]
+ok: [cluster-128-postgresql-worker-001 -> 10.65.8.37]
+ok: [cluster-128-postgresql-worker-008 -> 10.65.8.46]
+ok: [cluster-128-postgresql-master-001 -> 10.65.8.34]
+ok: [cluster-128-glusterfs-server-004 -> 10.65.8.51]
+ok: [cluster-128-glusterfs-server-007 -> 10.65.8.53]
+ok: [cluster-128-glusterfs-server-002 -> 10.65.8.50]
+ok: [cluster-128-glusterfs-server-006 -> 10.65.8.52]
+ok: [cluster-128-glusterfs-server-008 -> 10.65.8.54]
+ok: [cluster-128-postgresql-worker-007 -> 10.65.8.44]
+ok: [cluster-128-glusterfs-server-003 -> 10.65.8.48]
+ok: [cluster-128-glusterfs-server-001 -> 10.65.8.47]
+ok: [cluster-128-glusterfs-server-005 -> 10.65.8.49]
+
+TASK [cloud-instance : debug] ****************************************************************************************************************************************************
+skipping: [cluster-128-slurm-worker-001]
+skipping: [cluster-128-slurm-worker-002]
+skipping: [cluster-128-slurm-worker-003]
+skipping: [cluster-128-slurm-worker-004]
+skipping: [cluster-128-slurm-worker-006]
+skipping: [cluster-128-slurm-worker-005]
+skipping: [cluster-128-slurm-worker-007]
+skipping: [cluster-128-slurm-worker-008]
+skipping: [cluster-128-slurm-worker-009]
+skipping: [cluster-128-slurm-worker-010]
+skipping: [cluster-128-slurm-worker-011]
+skipping: [cluster-128-slurm-worker-012]
+skipping: [cluster-128-slurm-worker-013]
+skipping: [cluster-128-slurm-worker-014]
+skipping: [cluster-128-slurm-worker-015]
+skipping: [cluster-128-slurm-worker-016]
+skipping: [cluster-128-slurm-worker-017]
+skipping: [cluster-128-slurm-worker-018]
+skipping: [cluster-128-slurm-worker-019]
+skipping: [cluster-128-slurm-worker-020]
+skipping: [cluster-128-slurm-worker-021]
+skipping: [cluster-128-slurm-worker-022]
+skipping: [cluster-128-slurm-worker-023]
+skipping: [cluster-128-slurm-worker-024]
+skipping: [cluster-128-slurm-worker-025]
+skipping: [cluster-128-slurm-worker-026]
+skipping: [cluster-128-slurm-worker-027]
+skipping: [cluster-128-slurm-worker-028]
+skipping: [cluster-128-slurm-worker-029]
+skipping: [cluster-128-slurm-worker-031]
+skipping: [cluster-128-slurm-worker-030]
+skipping: [cluster-128-slurm-worker-032]
+skipping: [cluster-128-slurm-frontend-001]
+skipping: [cluster-128-ganglia-server-001]
+ok: [cluster-128-postgresql-master-001 -> 10.65.8.34] => {
+    "msg": "Mountpoint /storage is not mounted!"
+}
+ok: [cluster-128-postgresql-worker-001 -> 10.65.8.37] => {
+    "msg": "Mountpoint /storage is not mounted!"
+}
+ok: [cluster-128-postgresql-worker-003 -> 10.65.8.42] => {
+    "msg": "Mountpoint /storage is not mounted!"
+}
+ok: [cluster-128-postgresql-worker-002 -> 10.65.8.41] => {
+    "msg": "Mountpoint /storage is not mounted!"
+}
+ok: [cluster-128-postgresql-worker-005 -> 10.65.8.43] => {
+    "msg": "Mountpoint /storage is not mounted!"
+}
+ok: [cluster-128-postgresql-worker-004 -> 10.65.8.40] => {
+    "msg": "Mountpoint /storage is not mounted!"
+}
+ok: [cluster-128-postgresql-worker-006 -> 10.65.8.45] => {
+    "msg": "Mountpoint /storage is not mounted!"
+}
+ok: [cluster-128-postgresql-worker-007 -> 10.65.8.44] => {
+    "msg": "Mountpoint /storage is not mounted!"
+}
+ok: [cluster-128-glusterfs-server-006 -> 10.65.8.52] => {
+    "msg": "Mountpoint /srv/glusterfs is not mounted!"
+}
+ok: [cluster-128-glusterfs-server-005 -> 10.65.8.49] => {
+    "msg": "Mountpoint /srv/glusterfs is not mounted!"
+}
+ok: [cluster-128-glusterfs-server-004 -> 10.65.8.51] => {
+    "msg": "Mountpoint /srv/glusterfs is not mounted!"
+}
+ok: [cluster-128-glusterfs-server-003 -> 10.65.8.48] => {
+    "msg": "Mountpoint /srv/glusterfs is not mounted!"
+}
+ok: [cluster-128-glusterfs-server-002 -> 10.65.8.50] => {
+    "msg": "Mountpoint /srv/glusterfs is not mounted!"
+}
+ok: [cluster-128-glusterfs-server-001 -> 10.65.8.47] => {
+    "msg": "Mountpoint /srv/glusterfs is not mounted!"
+}
+ok: [cluster-128-postgresql-worker-008 -> 10.65.8.46] => {
+    "msg": "Mountpoint /storage is not mounted!"
+}
+ok: [cluster-128-glusterfs-server-007 -> 10.65.8.53] => {
+    "msg": "Mountpoint /srv/glusterfs is not mounted!"
+}
+ok: [cluster-128-glusterfs-server-008 -> 10.65.8.54] => {
+    "msg": "Mountpoint /srv/glusterfs is not mounted!"
+}
+
+TASK [cloud-instance : Determine if device exists] *******************************************************************************************************************************
+skipping: [cluster-128-slurm-worker-001]
+skipping: [cluster-128-slurm-worker-002]
+skipping: [cluster-128-slurm-worker-003]
+skipping: [cluster-128-slurm-worker-004]
+skipping: [cluster-128-slurm-worker-005]
+skipping: [cluster-128-slurm-worker-006]
+skipping: [cluster-128-slurm-worker-007]
+skipping: [cluster-128-slurm-worker-008]
+skipping: [cluster-128-slurm-worker-009]
+skipping: [cluster-128-slurm-worker-010]
+skipping: [cluster-128-slurm-worker-011]
+skipping: [cluster-128-slurm-worker-012]
+skipping: [cluster-128-slurm-worker-013]
+skipping: [cluster-128-slurm-worker-014]
+skipping: [cluster-128-slurm-worker-015]
+skipping: [cluster-128-slurm-worker-016]
+skipping: [cluster-128-slurm-worker-017]
+skipping: [cluster-128-slurm-worker-018]
+skipping: [cluster-128-slurm-worker-019]
+skipping: [cluster-128-slurm-worker-020]
+skipping: [cluster-128-slurm-worker-021]
+skipping: [cluster-128-slurm-worker-022]
+skipping: [cluster-128-slurm-worker-023]
+skipping: [cluster-128-slurm-worker-024]
+skipping: [cluster-128-slurm-worker-025]
+skipping: [cluster-128-slurm-worker-026]
+skipping: [cluster-128-slurm-worker-027]
+skipping: [cluster-128-slurm-worker-028]
+skipping: [cluster-128-slurm-worker-029]
+skipping: [cluster-128-slurm-worker-031]
+skipping: [cluster-128-slurm-worker-030]
+skipping: [cluster-128-slurm-worker-032]
+skipping: [cluster-128-slurm-frontend-001]
+skipping: [cluster-128-ganglia-server-001]
+ok: [cluster-128-postgresql-worker-001 -> 10.65.8.37]
+ok: [cluster-128-postgresql-worker-006 -> 10.65.8.45]
+ok: [cluster-128-postgresql-worker-005 -> 10.65.8.43]
+ok: [cluster-128-postgresql-worker-002 -> 10.65.8.41]
+ok: [cluster-128-postgresql-worker-004 -> 10.65.8.40]
+ok: [cluster-128-postgresql-worker-003 -> 10.65.8.42]
+ok: [cluster-128-postgresql-master-001 -> 10.65.8.34]
+ok: [cluster-128-postgresql-worker-007 -> 10.65.8.44]
+ok: [cluster-128-postgresql-worker-008 -> 10.65.8.46]
+ok: [cluster-128-glusterfs-server-004 -> 10.65.8.51]
+ok: [cluster-128-glusterfs-server-001 -> 10.65.8.47]
+ok: [cluster-128-glusterfs-server-002 -> 10.65.8.50]
+ok: [cluster-128-glusterfs-server-003 -> 10.65.8.48]
+ok: [cluster-128-glusterfs-server-006 -> 10.65.8.52]
+ok: [cluster-128-glusterfs-server-007 -> 10.65.8.53]
+ok: [cluster-128-glusterfs-server-008 -> 10.65.8.54]
+ok: [cluster-128-glusterfs-server-005 -> 10.65.8.49]
+
+TASK [cloud-instance : debug] ****************************************************************************************************************************************************
+skipping: [cluster-128-slurm-worker-001]
+skipping: [cluster-128-slurm-worker-002]
+skipping: [cluster-128-slurm-worker-004]
+skipping: [cluster-128-slurm-worker-003]
+skipping: [cluster-128-slurm-worker-005]
+skipping: [cluster-128-slurm-worker-006]
+skipping: [cluster-128-slurm-worker-007]
+skipping: [cluster-128-slurm-worker-008]
+skipping: [cluster-128-slurm-worker-009]
+skipping: [cluster-128-slurm-worker-011]
+skipping: [cluster-128-slurm-worker-010]
+skipping: [cluster-128-slurm-worker-013]
+skipping: [cluster-128-slurm-worker-012]
+skipping: [cluster-128-slurm-worker-014]
+skipping: [cluster-128-slurm-worker-015]
+skipping: [cluster-128-slurm-worker-016]
+skipping: [cluster-128-slurm-worker-017]
+skipping: [cluster-128-slurm-worker-018]
+skipping: [cluster-128-slurm-worker-019]
+skipping: [cluster-128-slurm-worker-020]
+skipping: [cluster-128-slurm-worker-021]
+skipping: [cluster-128-slurm-worker-022]
+skipping: [cluster-128-slurm-worker-023]
+skipping: [cluster-128-slurm-worker-024]
+skipping: [cluster-128-slurm-worker-025]
+skipping: [cluster-128-slurm-worker-026]
+skipping: [cluster-128-slurm-worker-027]
+skipping: [cluster-128-slurm-worker-028]
+skipping: [cluster-128-slurm-worker-029]
+skipping: [cluster-128-slurm-worker-030]
+skipping: [cluster-128-slurm-worker-031]
+skipping: [cluster-128-slurm-worker-032]
+skipping: [cluster-128-slurm-frontend-001]
+skipping: [cluster-128-ganglia-server-001]
+ok: [cluster-128-postgresql-worker-001 -> 10.65.8.37] => {
+    "msg": "Device /dev/vdb does  exist!"
+}
+ok: [cluster-128-postgresql-master-001 -> 10.65.8.34] => {
+    "msg": "Device /dev/vdb does  exist!"
+}
+ok: [cluster-128-postgresql-worker-003 -> 10.65.8.42] => {
+    "msg": "Device /dev/vdb does  exist!"
+}
+ok: [cluster-128-postgresql-worker-002 -> 10.65.8.41] => {
+    "msg": "Device /dev/vdb does  exist!"
+}
+ok: [cluster-128-postgresql-worker-005 -> 10.65.8.43] => {
+    "msg": "Device /dev/vdb does  exist!"
+}
+ok: [cluster-128-postgresql-worker-004 -> 10.65.8.40] => {
+    "msg": "Device /dev/vdb does  exist!"
+}
+ok: [cluster-128-postgresql-worker-006 -> 10.65.8.45] => {
+    "msg": "Device /dev/vdb does  exist!"
+}
+ok: [cluster-128-postgresql-worker-007 -> 10.65.8.44] => {
+    "msg": "Device /dev/vdb does  exist!"
+}
+ok: [cluster-128-postgresql-worker-008 -> 10.65.8.46] => {
+    "msg": "Device /dev/vdb does  exist!"
+}
+ok: [cluster-128-glusterfs-server-001 -> 10.65.8.47] => {
+    "msg": "Device /dev/vdb does  exist!"
+}
+ok: [cluster-128-glusterfs-server-002 -> 10.65.8.50] => {
+    "msg": "Device /dev/vdb does  exist!"
+}
+ok: [cluster-128-glusterfs-server-003 -> 10.65.8.48] => {
+    "msg": "Device /dev/vdb does  exist!"
+}
+ok: [cluster-128-glusterfs-server-004 -> 10.65.8.51] => {
+    "msg": "Device /dev/vdb does  exist!"
+}
+ok: [cluster-128-glusterfs-server-005 -> 10.65.8.49] => {
+    "msg": "Device /dev/vdb does  exist!"
+}
+ok: [cluster-128-glusterfs-server-006 -> 10.65.8.52] => {
+    "msg": "Device /dev/vdb does  exist!"
+}
+ok: [cluster-128-glusterfs-server-007 -> 10.65.8.53] => {
+    "msg": "Device /dev/vdb does  exist!"
+}
+ok: [cluster-128-glusterfs-server-008 -> 10.65.8.54] => {
+    "msg": "Device /dev/vdb does  exist!"
+}
+
+TASK [cloud-instance : Set default volume device name] ***************************************************************************************************************************
+skipping: [cluster-128-slurm-worker-001]
+skipping: [cluster-128-slurm-worker-002]
+skipping: [cluster-128-slurm-worker-004]
+skipping: [cluster-128-slurm-worker-003]
+skipping: [cluster-128-slurm-worker-005]
+skipping: [cluster-128-slurm-worker-006]
+skipping: [cluster-128-slurm-worker-007]
+skipping: [cluster-128-slurm-worker-008]
+skipping: [cluster-128-slurm-worker-009]
+skipping: [cluster-128-slurm-worker-010]
+skipping: [cluster-128-slurm-worker-011]
+skipping: [cluster-128-slurm-worker-012]
+skipping: [cluster-128-slurm-worker-013]
+skipping: [cluster-128-slurm-worker-014]
+skipping: [cluster-128-slurm-worker-015]
+skipping: [cluster-128-slurm-worker-016]
+skipping: [cluster-128-slurm-worker-017]
+skipping: [cluster-128-slurm-worker-018]
+skipping: [cluster-128-slurm-worker-019]
+skipping: [cluster-128-slurm-worker-020]
+skipping: [cluster-128-slurm-worker-021]
+skipping: [cluster-128-slurm-worker-022]
+skipping: [cluster-128-slurm-worker-023]
+skipping: [cluster-128-slurm-worker-024]
+skipping: [cluster-128-slurm-worker-025]
+skipping: [cluster-128-slurm-worker-026]
+skipping: [cluster-128-slurm-worker-027]
+skipping: [cluster-128-slurm-worker-028]
+skipping: [cluster-128-slurm-worker-029]
+skipping: [cluster-128-slurm-worker-030]
+skipping: [cluster-128-slurm-worker-031]
+skipping: [cluster-128-slurm-worker-032]
+skipping: [cluster-128-slurm-frontend-001]
+skipping: [cluster-128-ganglia-server-001]
+ok: [cluster-128-postgresql-master-001 -> 10.65.8.34]
+ok: [cluster-128-postgresql-worker-001 -> 10.65.8.37]
+ok: [cluster-128-postgresql-worker-003 -> 10.65.8.42]
+ok: [cluster-128-postgresql-worker-002 -> 10.65.8.41]
+ok: [cluster-128-postgresql-worker-004 -> 10.65.8.40]
+ok: [cluster-128-postgresql-worker-008 -> 10.65.8.46]
+ok: [cluster-128-postgresql-worker-007 -> 10.65.8.44]
+ok: [cluster-128-glusterfs-server-001 -> 10.65.8.47]
+ok: [cluster-128-postgresql-worker-006 -> 10.65.8.45]
+ok: [cluster-128-glusterfs-server-002 -> 10.65.8.50]
+ok: [cluster-128-postgresql-worker-005 -> 10.65.8.43]
+ok: [cluster-128-glusterfs-server-003 -> 10.65.8.48]
+ok: [cluster-128-glusterfs-server-005 -> 10.65.8.49]
+ok: [cluster-128-glusterfs-server-004 -> 10.65.8.51]
+ok: [cluster-128-glusterfs-server-006 -> 10.65.8.52]
+ok: [cluster-128-glusterfs-server-007 -> 10.65.8.53]
+ok: [cluster-128-glusterfs-server-008 -> 10.65.8.54]
+
+TASK [cloud-instance : Determine device name] ************************************************************************************************************************************
+skipping: [cluster-128-slurm-worker-001]
+skipping: [cluster-128-slurm-worker-002]
+skipping: [cluster-128-slurm-worker-003]
+skipping: [cluster-128-slurm-worker-004]
+skipping: [cluster-128-slurm-worker-005]
+skipping: [cluster-128-slurm-worker-006]
+skipping: [cluster-128-slurm-worker-007]
+skipping: [cluster-128-slurm-worker-008]
+skipping: [cluster-128-slurm-worker-009]
+skipping: [cluster-128-slurm-worker-010]
+skipping: [cluster-128-slurm-worker-011]
+skipping: [cluster-128-slurm-worker-012]
+skipping: [cluster-128-slurm-worker-014]
+skipping: [cluster-128-slurm-worker-013]
+skipping: [cluster-128-slurm-worker-015]
+skipping: [cluster-128-slurm-worker-016]
+skipping: [cluster-128-slurm-worker-017]
+skipping: [cluster-128-slurm-worker-018]
+skipping: [cluster-128-slurm-worker-019]
+skipping: [cluster-128-slurm-worker-020]
+skipping: [cluster-128-slurm-worker-021]
+skipping: [cluster-128-slurm-worker-023]
+skipping: [cluster-128-slurm-worker-022]
+skipping: [cluster-128-slurm-worker-024]
+skipping: [cluster-128-slurm-worker-025]
+skipping: [cluster-128-slurm-worker-026]
+skipping: [cluster-128-slurm-worker-027]
+skipping: [cluster-128-slurm-worker-028]
+skipping: [cluster-128-slurm-worker-030]
+skipping: [cluster-128-slurm-worker-029]
+skipping: [cluster-128-slurm-worker-031]
+skipping: [cluster-128-slurm-worker-032]
+skipping: [cluster-128-slurm-frontend-001]
+skipping: [cluster-128-ganglia-server-001]
+skipping: [cluster-128-postgresql-master-001]
+skipping: [cluster-128-postgresql-worker-001]
+skipping: [cluster-128-postgresql-worker-002]
+skipping: [cluster-128-postgresql-worker-003]
+skipping: [cluster-128-postgresql-worker-004]
+skipping: [cluster-128-postgresql-worker-005]
+skipping: [cluster-128-postgresql-worker-006]
+skipping: [cluster-128-postgresql-worker-007]
+skipping: [cluster-128-postgresql-worker-008]
+skipping: [cluster-128-glusterfs-server-001]
+skipping: [cluster-128-glusterfs-server-002]
+skipping: [cluster-128-glusterfs-server-003]
+skipping: [cluster-128-glusterfs-server-004]
+skipping: [cluster-128-glusterfs-server-005]
+skipping: [cluster-128-glusterfs-server-006]
+skipping: [cluster-128-glusterfs-server-007]
+skipping: [cluster-128-glusterfs-server-008]
+
+TASK [cloud-instance : fail] *****************************************************************************************************************************************************
+skipping: [cluster-128-slurm-worker-001]
+skipping: [cluster-128-slurm-worker-002]
+skipping: [cluster-128-slurm-worker-003]
+skipping: [cluster-128-slurm-worker-005]
+skipping: [cluster-128-slurm-worker-004]
+skipping: [cluster-128-slurm-worker-006]
+skipping: [cluster-128-slurm-worker-007]
+skipping: [cluster-128-slurm-worker-008]
+skipping: [cluster-128-slurm-worker-009]
+skipping: [cluster-128-slurm-worker-010]
+skipping: [cluster-128-slurm-worker-011]
+skipping: [cluster-128-slurm-worker-012]
+skipping: [cluster-128-slurm-worker-013]
+skipping: [cluster-128-slurm-worker-014]
+skipping: [cluster-128-slurm-worker-015]
+skipping: [cluster-128-slurm-worker-017]
+skipping: [cluster-128-slurm-worker-016]
+skipping: [cluster-128-slurm-worker-018]
+skipping: [cluster-128-slurm-worker-019]
+skipping: [cluster-128-slurm-worker-020]
+skipping: [cluster-128-slurm-worker-021]
+skipping: [cluster-128-slurm-worker-022]
+skipping: [cluster-128-slurm-worker-023]
+skipping: [cluster-128-slurm-worker-024]
+skipping: [cluster-128-slurm-worker-025]
+skipping: [cluster-128-slurm-worker-026]
+skipping: [cluster-128-slurm-worker-027]
+skipping: [cluster-128-slurm-worker-028]
+skipping: [cluster-128-slurm-worker-029]
+skipping: [cluster-128-slurm-worker-030]
+skipping: [cluster-128-slurm-worker-031]
+skipping: [cluster-128-slurm-frontend-001]
+skipping: [cluster-128-slurm-worker-032]
+skipping: [cluster-128-ganglia-server-001]
+skipping: [cluster-128-postgresql-master-001]
+skipping: [cluster-128-postgresql-worker-001]
+skipping: [cluster-128-postgresql-worker-002]
+skipping: [cluster-128-postgresql-worker-003]
+skipping: [cluster-128-postgresql-worker-004]
+skipping: [cluster-128-postgresql-worker-005]
+skipping: [cluster-128-postgresql-worker-007]
+skipping: [cluster-128-postgresql-worker-006]
+skipping: [cluster-128-postgresql-worker-008]
+skipping: [cluster-128-glusterfs-server-001]
+skipping: [cluster-128-glusterfs-server-002]
+skipping: [cluster-128-glusterfs-server-003]
+skipping: [cluster-128-glusterfs-server-004]
+skipping: [cluster-128-glusterfs-server-005]
+skipping: [cluster-128-glusterfs-server-006]
+skipping: [cluster-128-glusterfs-server-007]
+skipping: [cluster-128-glusterfs-server-008]
+
+TASK [cloud-instance : Override default volume device name] **********************************************************************************************************************
+skipping: [cluster-128-slurm-worker-001]
+skipping: [cluster-128-slurm-worker-002]
+skipping: [cluster-128-slurm-worker-003]
+skipping: [cluster-128-slurm-worker-004]
+skipping: [cluster-128-slurm-worker-005]
+skipping: [cluster-128-slurm-worker-006]
+skipping: [cluster-128-slurm-worker-007]
+skipping: [cluster-128-slurm-worker-008]
+skipping: [cluster-128-slurm-worker-009]
+skipping: [cluster-128-slurm-worker-010]
+skipping: [cluster-128-slurm-worker-011]
+skipping: [cluster-128-slurm-worker-012]
+skipping: [cluster-128-slurm-worker-013]
+skipping: [cluster-128-slurm-worker-014]
+skipping: [cluster-128-slurm-worker-015]
+skipping: [cluster-128-slurm-worker-016]
+skipping: [cluster-128-slurm-worker-017]
+skipping: [cluster-128-slurm-worker-018]
+skipping: [cluster-128-slurm-worker-019]
+skipping: [cluster-128-slurm-worker-020]
+skipping: [cluster-128-slurm-worker-021]
+skipping: [cluster-128-slurm-worker-022]
+skipping: [cluster-128-slurm-worker-023]
+skipping: [cluster-128-slurm-worker-024]
+skipping: [cluster-128-slurm-worker-025]
+skipping: [cluster-128-slurm-worker-026]
+skipping: [cluster-128-slurm-worker-027]
+skipping: [cluster-128-slurm-worker-028]
+skipping: [cluster-128-slurm-worker-029]
+skipping: [cluster-128-slurm-worker-030]
+skipping: [cluster-128-slurm-worker-031]
+skipping: [cluster-128-slurm-worker-032]
+skipping: [cluster-128-slurm-frontend-001]
+skipping: [cluster-128-ganglia-server-001]
+skipping: [cluster-128-postgresql-master-001]
+skipping: [cluster-128-postgresql-worker-001]
+skipping: [cluster-128-postgresql-worker-002]
+skipping: [cluster-128-postgresql-worker-003]
+skipping: [cluster-128-postgresql-worker-004]
+skipping: [cluster-128-postgresql-worker-005]
+skipping: [cluster-128-postgresql-worker-006]
+skipping: [cluster-128-postgresql-worker-007]
+skipping: [cluster-128-postgresql-worker-008]
+skipping: [cluster-128-glusterfs-server-001]
+skipping: [cluster-128-glusterfs-server-002]
+skipping: [cluster-128-glusterfs-server-003]
+skipping: [cluster-128-glusterfs-server-004]
+skipping: [cluster-128-glusterfs-server-005]
+skipping: [cluster-128-glusterfs-server-006]
+skipping: [cluster-128-glusterfs-server-007]
+skipping: [cluster-128-glusterfs-server-008]
+
+TASK [cloud-instance : Format attached storage volume] ***************************************************************************************************************************
+skipping: [cluster-128-slurm-worker-001]
+skipping: [cluster-128-slurm-worker-002]
+skipping: [cluster-128-slurm-worker-003]
+skipping: [cluster-128-slurm-worker-004]
+skipping: [cluster-128-slurm-worker-005]
+skipping: [cluster-128-slurm-worker-006]
+skipping: [cluster-128-slurm-worker-007]
+skipping: [cluster-128-slurm-worker-008]
+skipping: [cluster-128-slurm-worker-009]
+skipping: [cluster-128-slurm-worker-010]
+skipping: [cluster-128-slurm-worker-011]
+skipping: [cluster-128-slurm-worker-013]
+skipping: [cluster-128-slurm-worker-012]
+skipping: [cluster-128-slurm-worker-014]
+skipping: [cluster-128-slurm-worker-015]
+skipping: [cluster-128-slurm-worker-016]
+skipping: [cluster-128-slurm-worker-017]
+skipping: [cluster-128-slurm-worker-018]
+skipping: [cluster-128-slurm-worker-019]
+skipping: [cluster-128-slurm-worker-020]
+skipping: [cluster-128-slurm-worker-021]
+skipping: [cluster-128-slurm-worker-022]
+skipping: [cluster-128-slurm-worker-023]
+skipping: [cluster-128-slurm-worker-024]
+skipping: [cluster-128-slurm-worker-025]
+skipping: [cluster-128-slurm-worker-027]
+skipping: [cluster-128-slurm-worker-026]
+skipping: [cluster-128-slurm-worker-028]
+skipping: [cluster-128-slurm-worker-029]
+skipping: [cluster-128-slurm-worker-030]
+skipping: [cluster-128-slurm-worker-031]
+skipping: [cluster-128-slurm-worker-032]
+skipping: [cluster-128-slurm-frontend-001]
+skipping: [cluster-128-ganglia-server-001]
+changed: [cluster-128-postgresql-worker-001 -> 10.65.8.37]
+changed: [cluster-128-postgresql-worker-006 -> 10.65.8.45]
+changed: [cluster-128-postgresql-worker-002 -> 10.65.8.41]
+changed: [cluster-128-postgresql-worker-003 -> 10.65.8.42]
+changed: [cluster-128-postgresql-worker-005 -> 10.65.8.43]
+changed: [cluster-128-postgresql-worker-008 -> 10.65.8.46]
+changed: [cluster-128-postgresql-worker-004 -> 10.65.8.40]
+changed: [cluster-128-glusterfs-server-006 -> 10.65.8.52]
+changed: [cluster-128-glusterfs-server-007 -> 10.65.8.53]
+changed: [cluster-128-postgresql-worker-007 -> 10.65.8.44]
+changed: [cluster-128-glusterfs-server-004 -> 10.65.8.51]
+changed: [cluster-128-glusterfs-server-003 -> 10.65.8.48]
+changed: [cluster-128-glusterfs-server-008 -> 10.65.8.54]
+changed: [cluster-128-postgresql-master-001 -> 10.65.8.34]
+changed: [cluster-128-glusterfs-server-002 -> 10.65.8.50]
+changed: [cluster-128-glusterfs-server-001 -> 10.65.8.47]
+changed: [cluster-128-glusterfs-server-005 -> 10.65.8.49]
+
+TASK [cloud-instance : Ensure that group exists for storage volume] **************************************************************************************************************
+skipping: [cluster-128-slurm-worker-001]
+skipping: [cluster-128-slurm-worker-002]
+skipping: [cluster-128-slurm-worker-003]
+skipping: [cluster-128-slurm-worker-004]
+skipping: [cluster-128-slurm-worker-005]
+skipping: [cluster-128-slurm-worker-006]
+skipping: [cluster-128-slurm-worker-007]
+skipping: [cluster-128-slurm-worker-008]
+skipping: [cluster-128-slurm-worker-009]
+skipping: [cluster-128-slurm-worker-010]
+skipping: [cluster-128-slurm-worker-011]
+skipping: [cluster-128-slurm-worker-012]
+skipping: [cluster-128-slurm-worker-013]
+skipping: [cluster-128-slurm-worker-014]
+skipping: [cluster-128-slurm-worker-015]
+skipping: [cluster-128-slurm-worker-016]
+skipping: [cluster-128-slurm-worker-017]
+skipping: [cluster-128-slurm-worker-018]
+skipping: [cluster-128-slurm-worker-019]
+skipping: [cluster-128-slurm-worker-020]
+skipping: [cluster-128-slurm-worker-021]
+skipping: [cluster-128-slurm-worker-022]
+skipping: [cluster-128-slurm-worker-023]
+skipping: [cluster-128-slurm-worker-024]
+skipping: [cluster-128-slurm-worker-025]
+skipping: [cluster-128-slurm-worker-027]
+skipping: [cluster-128-slurm-worker-026]
+skipping: [cluster-128-slurm-worker-028]
+skipping: [cluster-128-slurm-worker-030]
+skipping: [cluster-128-slurm-worker-029]
+skipping: [cluster-128-slurm-worker-031]
+skipping: [cluster-128-slurm-worker-032]
+skipping: [cluster-128-slurm-frontend-001]
+skipping: [cluster-128-ganglia-server-001]
+ok: [cluster-128-postgresql-worker-001 -> 10.65.8.37]
+ok: [cluster-128-postgresql-worker-004 -> 10.65.8.40]
+ok: [cluster-128-postgresql-worker-008 -> 10.65.8.46]
+ok: [cluster-128-glusterfs-server-006 -> 10.65.8.52]
+ok: [cluster-128-postgresql-master-001 -> 10.65.8.34]
+ok: [cluster-128-postgresql-worker-002 -> 10.65.8.41]
+ok: [cluster-128-postgresql-worker-007 -> 10.65.8.44]
+ok: [cluster-128-postgresql-worker-006 -> 10.65.8.45]
+ok: [cluster-128-postgresql-worker-005 -> 10.65.8.43]
+ok: [cluster-128-postgresql-worker-003 -> 10.65.8.42]
+ok: [cluster-128-glusterfs-server-004 -> 10.65.8.51]
+ok: [cluster-128-glusterfs-server-008 -> 10.65.8.54]
+ok: [cluster-128-glusterfs-server-001 -> 10.65.8.47]
+ok: [cluster-128-glusterfs-server-003 -> 10.65.8.48]
+ok: [cluster-128-glusterfs-server-002 -> 10.65.8.50]
+ok: [cluster-128-glusterfs-server-007 -> 10.65.8.53]
+ok: [cluster-128-glusterfs-server-005 -> 10.65.8.49]
+
+TASK [cloud-instance : Ensure that user exist for storage volume] ****************************************************************************************************************
+skipping: [cluster-128-slurm-worker-001]
+skipping: [cluster-128-slurm-worker-002]
+skipping: [cluster-128-slurm-worker-003]
+skipping: [cluster-128-slurm-worker-004]
+skipping: [cluster-128-slurm-worker-005]
+skipping: [cluster-128-slurm-worker-006]
+skipping: [cluster-128-slurm-worker-007]
+skipping: [cluster-128-slurm-worker-008]
+skipping: [cluster-128-slurm-worker-009]
+skipping: [cluster-128-slurm-worker-010]
+skipping: [cluster-128-slurm-worker-011]
+skipping: [cluster-128-slurm-worker-012]
+skipping: [cluster-128-slurm-worker-013]
+skipping: [cluster-128-slurm-worker-014]
+skipping: [cluster-128-slurm-worker-015]
+skipping: [cluster-128-slurm-worker-016]
+skipping: [cluster-128-slurm-worker-017]
+skipping: [cluster-128-slurm-worker-018]
+skipping: [cluster-128-slurm-worker-019]
+skipping: [cluster-128-slurm-worker-020]
+skipping: [cluster-128-slurm-worker-021]
+skipping: [cluster-128-slurm-worker-022]
+skipping: [cluster-128-slurm-worker-023]
+skipping: [cluster-128-slurm-worker-024]
+skipping: [cluster-128-slurm-worker-026]
+skipping: [cluster-128-slurm-worker-025]
+skipping: [cluster-128-slurm-worker-027]
+skipping: [cluster-128-slurm-worker-028]
+skipping: [cluster-128-slurm-worker-029]
+skipping: [cluster-128-slurm-worker-030]
+skipping: [cluster-128-slurm-worker-031]
+skipping: [cluster-128-slurm-worker-032]
+skipping: [cluster-128-slurm-frontend-001]
+skipping: [cluster-128-ganglia-server-001]
+ok: [cluster-128-postgresql-worker-005 -> 10.65.8.43]
+ok: [cluster-128-postgresql-worker-003 -> 10.65.8.42]
+ok: [cluster-128-postgresql-worker-002 -> 10.65.8.41]
+ok: [cluster-128-postgresql-worker-004 -> 10.65.8.40]
+ok: [cluster-128-postgresql-worker-001 -> 10.65.8.37]
+ok: [cluster-128-glusterfs-server-004 -> 10.65.8.51]
+ok: [cluster-128-postgresql-worker-006 -> 10.65.8.45]
+ok: [cluster-128-glusterfs-server-006 -> 10.65.8.52]
+ok: [cluster-128-postgresql-worker-008 -> 10.65.8.46]
+ok: [cluster-128-glusterfs-server-008 -> 10.65.8.54]
+ok: [cluster-128-postgresql-master-001 -> 10.65.8.34]
+ok: [cluster-128-glusterfs-server-003 -> 10.65.8.48]
+ok: [cluster-128-postgresql-worker-007 -> 10.65.8.44]
+ok: [cluster-128-glusterfs-server-007 -> 10.65.8.53]
+ok: [cluster-128-glusterfs-server-001 -> 10.65.8.47]
+ok: [cluster-128-glusterfs-server-002 -> 10.65.8.50]
+ok: [cluster-128-glusterfs-server-005 -> 10.65.8.49]
+
+TASK [cloud-instance : Ensure mount point for storage volume exists and has correct permissions] *********************************************************************************
+skipping: [cluster-128-slurm-worker-001]
+skipping: [cluster-128-slurm-worker-002]
+skipping: [cluster-128-slurm-worker-003]
+skipping: [cluster-128-slurm-worker-004]
+skipping: [cluster-128-slurm-worker-005]
+skipping: [cluster-128-slurm-worker-006]
+skipping: [cluster-128-slurm-worker-007]
+skipping: [cluster-128-slurm-worker-008]
+skipping: [cluster-128-slurm-worker-009]
+skipping: [cluster-128-slurm-worker-010]
+skipping: [cluster-128-slurm-worker-011]
+skipping: [cluster-128-slurm-worker-012]
+skipping: [cluster-128-slurm-worker-013]
+skipping: [cluster-128-slurm-worker-014]
+skipping: [cluster-128-slurm-worker-015]
+skipping: [cluster-128-slurm-worker-016]
+skipping: [cluster-128-slurm-worker-017]
+skipping: [cluster-128-slurm-worker-018]
+skipping: [cluster-128-slurm-worker-019]
+skipping: [cluster-128-slurm-worker-020]
+skipping: [cluster-128-slurm-worker-021]
+skipping: [cluster-128-slurm-worker-022]
+skipping: [cluster-128-slurm-worker-023]
+skipping: [cluster-128-slurm-worker-024]
+skipping: [cluster-128-slurm-worker-026]
+skipping: [cluster-128-slurm-worker-025]
+skipping: [cluster-128-slurm-worker-027]
+skipping: [cluster-128-slurm-worker-028]
+skipping: [cluster-128-slurm-worker-030]
+skipping: [cluster-128-slurm-worker-029]
+skipping: [cluster-128-slurm-worker-031]
+skipping: [cluster-128-slurm-worker-032]
+skipping: [cluster-128-slurm-frontend-001]
+skipping: [cluster-128-ganglia-server-001]
+changed: [cluster-128-postgresql-worker-005 -> 10.65.8.43]
+changed: [cluster-128-postgresql-worker-002 -> 10.65.8.41]
+changed: [cluster-128-postgresql-worker-006 -> 10.65.8.45]
+changed: [cluster-128-postgresql-worker-001 -> 10.65.8.37]
+changed: [cluster-128-postgresql-worker-008 -> 10.65.8.46]
+changed: [cluster-128-postgresql-master-001 -> 10.65.8.34]
+changed: [cluster-128-postgresql-worker-007 -> 10.65.8.44]
+changed: [cluster-128-glusterfs-server-001 -> 10.65.8.47]
+changed: [cluster-128-glusterfs-server-006 -> 10.65.8.52]
+changed: [cluster-128-glusterfs-server-003 -> 10.65.8.48]
+changed: [cluster-128-glusterfs-server-002 -> 10.65.8.50]
+changed: [cluster-128-glusterfs-server-007 -> 10.65.8.53]
+changed: [cluster-128-glusterfs-server-004 -> 10.65.8.51]
+changed: [cluster-128-glusterfs-server-008 -> 10.65.8.54]
+changed: [cluster-128-postgresql-worker-004 -> 10.65.8.40]
+changed: [cluster-128-glusterfs-server-005 -> 10.65.8.49]
+changed: [cluster-128-postgresql-worker-003 -> 10.65.8.42]
+
+TASK [cloud-instance : Mount storage volume] *************************************************************************************************************************************
+skipping: [cluster-128-slurm-worker-001]
+skipping: [cluster-128-slurm-worker-002]
+skipping: [cluster-128-slurm-worker-004]
+skipping: [cluster-128-slurm-worker-003]
+skipping: [cluster-128-slurm-worker-005]
+skipping: [cluster-128-slurm-worker-006]
+skipping: [cluster-128-slurm-worker-007]
+skipping: [cluster-128-slurm-worker-008]
+skipping: [cluster-128-slurm-worker-009]
+skipping: [cluster-128-slurm-worker-010]
+skipping: [cluster-128-slurm-worker-011]
+skipping: [cluster-128-slurm-worker-012]
+skipping: [cluster-128-slurm-worker-013]
+skipping: [cluster-128-slurm-worker-014]
+skipping: [cluster-128-slurm-worker-015]
+skipping: [cluster-128-slurm-worker-016]
+skipping: [cluster-128-slurm-worker-017]
+skipping: [cluster-128-slurm-worker-018]
+skipping: [cluster-128-slurm-worker-019]
+skipping: [cluster-128-slurm-worker-020]
+skipping: [cluster-128-slurm-worker-021]
+skipping: [cluster-128-slurm-worker-022]
+skipping: [cluster-128-slurm-worker-023]
+skipping: [cluster-128-slurm-worker-026]
+skipping: [cluster-128-slurm-worker-025]
+skipping: [cluster-128-slurm-worker-024]
+skipping: [cluster-128-slurm-worker-027]
+skipping: [cluster-128-slurm-worker-028]
+skipping: [cluster-128-slurm-worker-029]
+skipping: [cluster-128-slurm-worker-030]
+skipping: [cluster-128-slurm-worker-031]
+skipping: [cluster-128-slurm-worker-032]
+skipping: [cluster-128-slurm-frontend-001]
+skipping: [cluster-128-ganglia-server-001]
+changed: [cluster-128-postgresql-worker-004 -> 10.65.8.40]
+changed: [cluster-128-postgresql-worker-001 -> 10.65.8.37]
+changed: [cluster-128-postgresql-worker-005 -> 10.65.8.43]
+changed: [cluster-128-postgresql-worker-007 -> 10.65.8.44]
+changed: [cluster-128-postgresql-worker-002 -> 10.65.8.41]
+changed: [cluster-128-postgresql-worker-003 -> 10.65.8.42]
+changed: [cluster-128-postgresql-worker-006 -> 10.65.8.45]
+changed: [cluster-128-postgresql-master-001 -> 10.65.8.34]
+changed: [cluster-128-postgresql-worker-008 -> 10.65.8.46]
+changed: [cluster-128-glusterfs-server-001 -> 10.65.8.47]
+changed: [cluster-128-glusterfs-server-003 -> 10.65.8.48]
+changed: [cluster-128-glusterfs-server-004 -> 10.65.8.51]
+changed: [cluster-128-glusterfs-server-002 -> 10.65.8.50]
+changed: [cluster-128-glusterfs-server-006 -> 10.65.8.52]
+changed: [cluster-128-glusterfs-server-008 -> 10.65.8.54]
+changed: [cluster-128-glusterfs-server-005 -> 10.65.8.49]
+changed: [cluster-128-glusterfs-server-007 -> 10.65.8.53]
+
+TASK [cloud-instance : Add user groups] ******************************************************************************************************************************************
+changed: [cluster-128-slurm-worker-002 -> 10.65.8.15] => (item=nginx)
+changed: [cluster-128-slurm-worker-013 -> 10.65.8.19] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-003 -> 10.65.8.14] => (item=postgres)
+changed: [cluster-128-slurm-worker-007 -> 10.65.8.6] => (item=postgres)
+changed: [cluster-128-slurm-worker-006 -> 10.65.8.7] => (item=postgres)
+changed: [cluster-128-slurm-worker-005 -> 10.65.8.8] => (item=postgres)
+changed: [cluster-128-slurm-worker-004 -> 10.65.8.20] => (item=postgres)
+changed: [cluster-128-slurm-worker-010 -> 10.65.8.4] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-009 -> 10.65.8.13] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-008 -> 10.65.8.10] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-011 -> 10.65.8.12] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-001 -> 10.65.8.11] => (item=postgres)
+changed: [cluster-128-slurm-worker-002 -> 10.65.8.15] => (item=postgres)
+changed: [cluster-128-slurm-worker-007 -> 10.65.8.6] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-003 -> 10.65.8.14] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-005 -> 10.65.8.8] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-006 -> 10.65.8.7] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-004 -> 10.65.8.20] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-001 -> 10.65.8.11] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-002 -> 10.65.8.15] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-012 -> 10.65.8.18] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-017 -> 10.65.8.9] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-014 -> 10.65.8.21] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-009 -> 10.65.8.13] => (item=postgres)
+changed: [cluster-128-slurm-worker-008 -> 10.65.8.10] => (item=postgres)
+changed: [cluster-128-slurm-worker-004 -> 10.65.8.20] => (item=nginx)
+changed: [cluster-128-slurm-worker-010 -> 10.65.8.4] => (item=postgres)
+changed: [cluster-128-slurm-worker-020 -> 10.65.8.23] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-007 -> 10.65.8.6] => (item=nginx)
+changed: [cluster-128-slurm-worker-016 -> 10.65.8.22] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-006 -> 10.65.8.7] => (item=nginx)
+changed: [cluster-128-slurm-worker-005 -> 10.65.8.8] => (item=nginx)
+changed: [cluster-128-slurm-worker-001 -> 10.65.8.11] => (item=nginx)
+changed: [cluster-128-slurm-worker-015 -> 10.65.8.16] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-018 -> 10.65.8.5] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-011 -> 10.65.8.12] => (item=postgres)
+changed: [cluster-128-slurm-worker-003 -> 10.65.8.14] => (item=nginx)
+changed: [cluster-128-slurm-worker-009 -> 10.65.8.13] => (item=nginx)
+changed: [cluster-128-slurm-worker-015 -> 10.65.8.16] => (item=postgres)
+changed: [cluster-128-slurm-worker-019 -> 10.65.8.17] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-012 -> 10.65.8.18] => (item=postgres)
+changed: [cluster-128-slurm-worker-017 -> 10.65.8.9] => (item=postgres)
+changed: [cluster-128-slurm-worker-018 -> 10.65.8.5] => (item=postgres)
+changed: [cluster-128-slurm-worker-013 -> 10.65.8.19] => (item=postgres)
+changed: [cluster-128-slurm-worker-008 -> 10.65.8.10] => (item=nginx)
+changed: [cluster-128-slurm-worker-010 -> 10.65.8.4] => (item=nginx)
+changed: [cluster-128-slurm-worker-020 -> 10.65.8.23] => (item=postgres)
+changed: [cluster-128-slurm-worker-020 -> 10.65.8.23] => (item=nginx)
+changed: [cluster-128-slurm-worker-016 -> 10.65.8.22] => (item=postgres)
+changed: [cluster-128-slurm-worker-014 -> 10.65.8.21] => (item=postgres)
+changed: [cluster-128-slurm-worker-011 -> 10.65.8.12] => (item=nginx)
+changed: [cluster-128-slurm-worker-015 -> 10.65.8.16] => (item=nginx)
+changed: [cluster-128-slurm-worker-017 -> 10.65.8.9] => (item=nginx)
+changed: [cluster-128-slurm-worker-012 -> 10.65.8.18] => (item=nginx)
+changed: [cluster-128-slurm-worker-019 -> 10.65.8.17] => (item=postgres)
+changed: [cluster-128-slurm-worker-016 -> 10.65.8.22] => (item=nginx)
+changed: [cluster-128-slurm-worker-018 -> 10.65.8.5] => (item=nginx)
+changed: [cluster-128-slurm-worker-013 -> 10.65.8.19] => (item=nginx)
+changed: [cluster-128-slurm-worker-014 -> 10.65.8.21] => (item=nginx)
+changed: [cluster-128-slurm-worker-024 -> 10.65.8.24] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-019 -> 10.65.8.17] => (item=nginx)
+changed: [cluster-128-slurm-worker-023 -> 10.65.8.26] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-022 -> 10.65.8.28] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-022 -> 10.65.8.28] => (item=nginx)
+changed: [cluster-128-slurm-worker-027 -> 10.65.8.31] => (item=postgres)
+changed: [cluster-128-slurm-worker-028 -> 10.65.8.30] => (item=tissuemaps)
+changed: [cluster-128-slurm-frontend-001 -> 130.60.24.119] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-030 -> 10.65.8.36] => (item=tissuemaps)
+changed: [cluster-128-postgresql-worker-004 -> 10.65.8.40] => (item=postgres)
+changed: [cluster-128-postgresql-worker-001 -> 10.65.8.37] => (item=postgres)
+changed: [cluster-128-postgresql-worker-002 -> 10.65.8.41] => (item=postgres)
+changed: [cluster-128-postgresql-worker-003 -> 10.65.8.42] => (item=postgres)
+changed: [cluster-128-slurm-worker-025 -> 10.65.8.27] => (item=postgres)
+changed: [cluster-128-slurm-worker-031 -> 10.65.8.39] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-021 -> 10.65.8.25] => (item=postgres)
+changed: [cluster-128-postgresql-worker-005 -> 10.65.8.43] => (item=tissuemaps)
+changed: [cluster-128-postgresql-master-001 -> 10.65.8.34] => (item=postgres)
+changed: [cluster-128-slurm-worker-029 -> 10.65.8.32] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-024 -> 10.65.8.24] => (item=postgres)
+changed: [cluster-128-slurm-worker-027 -> 10.65.8.31] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-026 -> 10.65.8.29] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-023 -> 10.65.8.26] => (item=postgres)
+changed: [cluster-128-slurm-worker-022 -> 10.65.8.28] => (item=postgres)
+changed: [cluster-128-postgresql-worker-004 -> 10.65.8.40] => (item=tissuemaps)
+changed: [cluster-128-postgresql-worker-002 -> 10.65.8.41] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-025 -> 10.65.8.27] => (item=tissuemaps)
+changed: [cluster-128-postgresql-worker-003 -> 10.65.8.42] => (item=tissuemaps)
+changed: [cluster-128-postgresql-worker-001 -> 10.65.8.37] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-021 -> 10.65.8.25] => (item=tissuemaps)
+changed: [cluster-128-postgresql-master-001 -> 10.65.8.34] => (item=tissuemaps)
+changed: [cluster-128-postgresql-worker-005 -> 10.65.8.43] => (item=postgres)
+changed: [cluster-128-slurm-worker-026 -> 10.65.8.29] => (item=postgres)
+changed: [cluster-128-slurm-worker-024 -> 10.65.8.24] => (item=nginx)
+changed: [cluster-128-slurm-worker-029 -> 10.65.8.32] => (item=postgres)
+changed: [cluster-128-slurm-worker-021 -> 10.65.8.25] => (item=nginx)
+changed: [cluster-128-slurm-worker-032 -> 10.65.8.35] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-023 -> 10.65.8.26] => (item=nginx)
+changed: [cluster-128-postgresql-master-001 -> 10.65.8.34] => (item=nginx)
+changed: [cluster-128-slurm-worker-025 -> 10.65.8.27] => (item=nginx)
+changed: [cluster-128-slurm-frontend-001 -> 130.60.24.119] => (item=postgres)
+changed: [cluster-128-postgresql-worker-004 -> 10.65.8.40] => (item=nginx)
+changed: [cluster-128-slurm-worker-030 -> 10.65.8.36] => (item=postgres)
+changed: [cluster-128-postgresql-worker-002 -> 10.65.8.41] => (item=nginx)
+changed: [cluster-128-postgresql-worker-001 -> 10.65.8.37] => (item=nginx)
+changed: [cluster-128-postgresql-worker-003 -> 10.65.8.42] => (item=nginx)
+changed: [cluster-128-ganglia-server-001 -> 130.60.24.164] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-031 -> 10.65.8.39] => (item=postgres)
+changed: [cluster-128-slurm-worker-029 -> 10.65.8.32] => (item=nginx)
+changed: [cluster-128-slurm-worker-032 -> 10.65.8.35] => (item=postgres)
+changed: [cluster-128-slurm-worker-028 -> 10.65.8.30] => (item=postgres)
+changed: [cluster-128-postgresql-worker-005 -> 10.65.8.43] => (item=nginx)
+changed: [cluster-128-postgresql-worker-006 -> 10.65.8.45] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-026 -> 10.65.8.29] => (item=nginx)
+changed: [cluster-128-slurm-worker-027 -> 10.65.8.31] => (item=nginx)
+changed: [cluster-128-slurm-worker-031 -> 10.65.8.39] => (item=nginx)
+changed: [cluster-128-ganglia-server-001 -> 130.60.24.164] => (item=postgres)
+changed: [cluster-128-postgresql-worker-008 -> 10.65.8.46] => (item=tissuemaps)
+changed: [cluster-128-glusterfs-server-001 -> 10.65.8.47] => (item=tissuemaps)
+changed: [cluster-128-postgresql-worker-007 -> 10.65.8.44] => (item=tissuemaps)
+changed: [cluster-128-slurm-frontend-001 -> 130.60.24.119] => (item=nginx)
+changed: [cluster-128-glusterfs-server-002 -> 10.65.8.50] => (item=tissuemaps)
+changed: [cluster-128-glusterfs-server-003 -> 10.65.8.48] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-030 -> 10.65.8.36] => (item=nginx)
+changed: [cluster-128-glusterfs-server-004 -> 10.65.8.51] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-028 -> 10.65.8.30] => (item=nginx)
+changed: [cluster-128-slurm-worker-032 -> 10.65.8.35] => (item=nginx)
+changed: [cluster-128-postgresql-worker-006 -> 10.65.8.45] => (item=postgres)
+changed: [cluster-128-glusterfs-server-006 -> 10.65.8.52] => (item=tissuemaps)
+changed: [cluster-128-postgresql-worker-008 -> 10.65.8.46] => (item=postgres)
+changed: [cluster-128-ganglia-server-001 -> 130.60.24.164] => (item=nginx)
+changed: [cluster-128-glusterfs-server-007 -> 10.65.8.53] => (item=tissuemaps)
+changed: [cluster-128-postgresql-worker-007 -> 10.65.8.44] => (item=postgres)
+changed: [cluster-128-glusterfs-server-005 -> 10.65.8.49] => (item=tissuemaps)
+changed: [cluster-128-glusterfs-server-008 -> 10.65.8.54] => (item=tissuemaps)
+changed: [cluster-128-glusterfs-server-001 -> 10.65.8.47] => (item=postgres)
+changed: [cluster-128-glusterfs-server-003 -> 10.65.8.48] => (item=postgres)
+changed: [cluster-128-glusterfs-server-004 -> 10.65.8.51] => (item=postgres)
+changed: [cluster-128-glusterfs-server-002 -> 10.65.8.50] => (item=postgres)
+changed: [cluster-128-glusterfs-server-006 -> 10.65.8.52] => (item=postgres)
+changed: [cluster-128-postgresql-worker-006 -> 10.65.8.45] => (item=nginx)
+changed: [cluster-128-glusterfs-server-007 -> 10.65.8.53] => (item=postgres)
+changed: [cluster-128-postgresql-worker-008 -> 10.65.8.46] => (item=nginx)
+changed: [cluster-128-glusterfs-server-005 -> 10.65.8.49] => (item=postgres)
+changed: [cluster-128-glusterfs-server-008 -> 10.65.8.54] => (item=postgres)
+changed: [cluster-128-postgresql-worker-007 -> 10.65.8.44] => (item=nginx)
+changed: [cluster-128-glusterfs-server-004 -> 10.65.8.51] => (item=nginx)
+changed: [cluster-128-glusterfs-server-003 -> 10.65.8.48] => (item=nginx)
+changed: [cluster-128-glusterfs-server-001 -> 10.65.8.47] => (item=nginx)
+changed: [cluster-128-glusterfs-server-002 -> 10.65.8.50] => (item=nginx)
+changed: [cluster-128-glusterfs-server-006 -> 10.65.8.52] => (item=nginx)
+changed: [cluster-128-glusterfs-server-007 -> 10.65.8.53] => (item=nginx)
+changed: [cluster-128-glusterfs-server-008 -> 10.65.8.54] => (item=nginx)
+changed: [cluster-128-glusterfs-server-005 -> 10.65.8.49] => (item=nginx)
+
+TASK [cloud-instance : Add users] ************************************************************************************************************************************************
+changed: [cluster-128-slurm-worker-001 -> 10.65.8.11] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-slurm-worker-007 -> 10.65.8.6] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-slurm-worker-008 -> 10.65.8.10] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-slurm-worker-006 -> 10.65.8.7] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-slurm-worker-005 -> 10.65.8.8] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-slurm-worker-004 -> 10.65.8.20] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-slurm-worker-003 -> 10.65.8.14] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-slurm-worker-002 -> 10.65.8.15] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-slurm-worker-009 -> 10.65.8.13] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-slurm-worker-010 -> 10.65.8.4] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-slurm-worker-011 -> 10.65.8.12] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-slurm-worker-002 -> 10.65.8.15] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-slurm-worker-013 -> 10.65.8.19] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-slurm-worker-001 -> 10.65.8.11] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-slurm-worker-004 -> 10.65.8.20] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-slurm-worker-003 -> 10.65.8.14] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-slurm-worker-015 -> 10.65.8.16] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-slurm-worker-007 -> 10.65.8.6] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-slurm-worker-016 -> 10.65.8.22] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-slurm-worker-011 -> 10.65.8.12] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-slurm-worker-010 -> 10.65.8.4] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-slurm-worker-014 -> 10.65.8.21] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-slurm-worker-006 -> 10.65.8.7] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-slurm-worker-008 -> 10.65.8.10] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-slurm-worker-012 -> 10.65.8.18] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-slurm-worker-020 -> 10.65.8.23] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-slurm-worker-009 -> 10.65.8.13] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-slurm-worker-018 -> 10.65.8.5] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-slurm-worker-017 -> 10.65.8.9] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-slurm-worker-005 -> 10.65.8.8] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-slurm-worker-013 -> 10.65.8.19] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-slurm-worker-022 -> 10.65.8.28] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-slurm-worker-021 -> 10.65.8.25] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-slurm-worker-019 -> 10.65.8.17] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-slurm-worker-014 -> 10.65.8.21] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-slurm-worker-023 -> 10.65.8.26] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-slurm-worker-015 -> 10.65.8.16] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-slurm-worker-012 -> 10.65.8.18] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-slurm-worker-017 -> 10.65.8.9] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-slurm-worker-024 -> 10.65.8.24] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-slurm-worker-016 -> 10.65.8.22] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-slurm-worker-026 -> 10.65.8.29] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-slurm-worker-025 -> 10.65.8.27] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-slurm-worker-020 -> 10.65.8.23] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-slurm-worker-027 -> 10.65.8.31] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-slurm-worker-022 -> 10.65.8.28] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-slurm-worker-018 -> 10.65.8.5] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-slurm-worker-028 -> 10.65.8.30] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-slurm-worker-029 -> 10.65.8.32] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-slurm-worker-021 -> 10.65.8.25] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-slurm-worker-032 -> 10.65.8.35] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-slurm-worker-019 -> 10.65.8.17] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-slurm-frontend-001 -> 130.60.24.119] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-slurm-worker-026 -> 10.65.8.29] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-slurm-worker-025 -> 10.65.8.27] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-postgresql-master-001 -> 10.65.8.34] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-slurm-worker-024 -> 10.65.8.24] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-slurm-worker-023 -> 10.65.8.26] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-slurm-worker-030 -> 10.65.8.36] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-slurm-worker-031 -> 10.65.8.39] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-ganglia-server-001 -> 130.60.24.164] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-slurm-worker-027 -> 10.65.8.31] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-slurm-worker-031 -> 10.65.8.39] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-postgresql-worker-002 -> 10.65.8.41] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-postgresql-worker-004 -> 10.65.8.40] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-postgresql-worker-003 -> 10.65.8.42] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-slurm-worker-030 -> 10.65.8.36] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-slurm-worker-032 -> 10.65.8.35] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-slurm-worker-028 -> 10.65.8.30] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-postgresql-worker-001 -> 10.65.8.37] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-slurm-worker-029 -> 10.65.8.32] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-postgresql-worker-006 -> 10.65.8.45] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-slurm-frontend-001 -> 130.60.24.119] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-postgresql-worker-005 -> 10.65.8.43] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-ganglia-server-001 -> 130.60.24.164] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-postgresql-worker-007 -> 10.65.8.44] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-postgresql-master-001 -> 10.65.8.34] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-postgresql-worker-008 -> 10.65.8.46] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-glusterfs-server-001 -> 10.65.8.47] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-glusterfs-server-002 -> 10.65.8.50] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-glusterfs-server-003 -> 10.65.8.48] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-postgresql-worker-001 -> 10.65.8.37] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-postgresql-worker-004 -> 10.65.8.40] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-glusterfs-server-004 -> 10.65.8.51] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-postgresql-worker-002 -> 10.65.8.41] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-postgresql-worker-003 -> 10.65.8.42] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-postgresql-worker-005 -> 10.65.8.43] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-glusterfs-server-007 -> 10.65.8.53] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-glusterfs-server-006 -> 10.65.8.52] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-postgresql-worker-006 -> 10.65.8.45] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-glusterfs-server-005 -> 10.65.8.49] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-glusterfs-server-008 -> 10.65.8.54] => (item={u'group': u'tissuemaps', u'user': u'tissuemaps'})
+changed: [cluster-128-postgresql-worker-007 -> 10.65.8.44] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-postgresql-worker-008 -> 10.65.8.46] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-glusterfs-server-002 -> 10.65.8.50] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-glusterfs-server-004 -> 10.65.8.51] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-glusterfs-server-003 -> 10.65.8.48] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-glusterfs-server-001 -> 10.65.8.47] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-glusterfs-server-006 -> 10.65.8.52] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-glusterfs-server-008 -> 10.65.8.54] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-glusterfs-server-007 -> 10.65.8.53] => (item={u'group': u'postgres', u'user': u'postgres'})
+changed: [cluster-128-glusterfs-server-005 -> 10.65.8.49] => (item={u'group': u'postgres', u'user': u'postgres'})
+
+TASK [cloud-instance : Add web user] *********************************************************************************************************************************************
+changed: [cluster-128-slurm-worker-001 -> 10.65.8.11] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-slurm-worker-002 -> 10.65.8.15] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-slurm-worker-003 -> 10.65.8.14] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-slurm-worker-004 -> 10.65.8.20] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-slurm-worker-005 -> 10.65.8.8] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-slurm-worker-008 -> 10.65.8.10] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-slurm-worker-010 -> 10.65.8.4] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-slurm-worker-009 -> 10.65.8.13] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-slurm-worker-006 -> 10.65.8.7] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-slurm-worker-007 -> 10.65.8.6] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-slurm-worker-013 -> 10.65.8.19] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-slurm-worker-011 -> 10.65.8.12] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-slurm-worker-012 -> 10.65.8.18] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-slurm-worker-020 -> 10.65.8.23] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-slurm-worker-016 -> 10.65.8.22] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-slurm-worker-014 -> 10.65.8.21] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-slurm-worker-015 -> 10.65.8.16] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-slurm-worker-023 -> 10.65.8.26] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-slurm-worker-017 -> 10.65.8.9] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-slurm-worker-019 -> 10.65.8.17] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-slurm-worker-021 -> 10.65.8.25] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-slurm-worker-018 -> 10.65.8.5] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-slurm-worker-024 -> 10.65.8.24] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-slurm-worker-022 -> 10.65.8.28] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-slurm-worker-026 -> 10.65.8.29] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-slurm-worker-029 -> 10.65.8.32] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-slurm-worker-025 -> 10.65.8.27] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-slurm-worker-027 -> 10.65.8.31] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-slurm-worker-032 -> 10.65.8.35] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-slurm-frontend-001 -> 130.60.24.119] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-postgresql-master-001 -> 10.65.8.34] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-postgresql-worker-002 -> 10.65.8.41] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-postgresql-worker-003 -> 10.65.8.42] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-ganglia-server-001 -> 130.60.24.164] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-slurm-worker-031 -> 10.65.8.39] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-slurm-worker-030 -> 10.65.8.36] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-slurm-worker-028 -> 10.65.8.30] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-postgresql-worker-004 -> 10.65.8.40] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-postgresql-worker-006 -> 10.65.8.45] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-postgresql-worker-005 -> 10.65.8.43] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-postgresql-worker-001 -> 10.65.8.37] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-postgresql-worker-007 -> 10.65.8.44] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-postgresql-worker-008 -> 10.65.8.46] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-glusterfs-server-002 -> 10.65.8.50] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-glusterfs-server-001 -> 10.65.8.47] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-glusterfs-server-003 -> 10.65.8.48] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-glusterfs-server-004 -> 10.65.8.51] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-glusterfs-server-006 -> 10.65.8.52] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-glusterfs-server-005 -> 10.65.8.49] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-glusterfs-server-008 -> 10.65.8.54] => (item={u'group': u'nginx', u'user': u'nginx'})
+changed: [cluster-128-glusterfs-server-007 -> 10.65.8.53] => (item={u'group': u'nginx', u'user': u'nginx'})
+
+TASK [cloud-instance : Change permissions for user home directory] ***************************************************************************************************************
+changed: [cluster-128-slurm-worker-001 -> 10.65.8.11] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-002 -> 10.65.8.15] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-005 -> 10.65.8.8] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-004 -> 10.65.8.20] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-007 -> 10.65.8.6] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-006 -> 10.65.8.7] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-003 -> 10.65.8.14] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-009 -> 10.65.8.13] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-009 -> 10.65.8.13] => (item=postgres)
+changed: [cluster-128-slurm-worker-006 -> 10.65.8.7] => (item=postgres)
+changed: [cluster-128-slurm-worker-001 -> 10.65.8.11] => (item=postgres)
+changed: [cluster-128-slurm-worker-007 -> 10.65.8.6] => (item=postgres)
+changed: [cluster-128-slurm-worker-002 -> 10.65.8.15] => (item=postgres)
+changed: [cluster-128-slurm-worker-005 -> 10.65.8.8] => (item=postgres)
+changed: [cluster-128-slurm-worker-011 -> 10.65.8.12] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-010 -> 10.65.8.4] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-004 -> 10.65.8.20] => (item=postgres)
+changed: [cluster-128-slurm-worker-008 -> 10.65.8.10] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-004 -> 10.65.8.20] => (item=nginx)
+changed: [cluster-128-slurm-worker-013 -> 10.65.8.19] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-015 -> 10.65.8.16] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-014 -> 10.65.8.21] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-012 -> 10.65.8.18] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-010 -> 10.65.8.4] => (item=postgres)
+changed: [cluster-128-slurm-worker-003 -> 10.65.8.14] => (item=postgres)
+changed: [cluster-128-slurm-worker-011 -> 10.65.8.12] => (item=postgres)
+changed: [cluster-128-slurm-worker-009 -> 10.65.8.13] => (item=nginx)
+changed: [cluster-128-slurm-worker-014 -> 10.65.8.21] => (item=postgres)
+changed: [cluster-128-slurm-worker-020 -> 10.65.8.23] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-018 -> 10.65.8.5] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-016 -> 10.65.8.22] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-001 -> 10.65.8.11] => (item=nginx)
+changed: [cluster-128-slurm-worker-002 -> 10.65.8.15] => (item=nginx)
+changed: [cluster-128-slurm-worker-017 -> 10.65.8.9] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-006 -> 10.65.8.7] => (item=nginx)
+changed: [cluster-128-slurm-worker-008 -> 10.65.8.10] => (item=postgres)
+changed: [cluster-128-slurm-worker-005 -> 10.65.8.8] => (item=nginx)
+changed: [cluster-128-slurm-worker-022 -> 10.65.8.28] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-008 -> 10.65.8.10] => (item=nginx)
+changed: [cluster-128-slurm-worker-019 -> 10.65.8.17] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-011 -> 10.65.8.12] => (item=nginx)
+changed: [cluster-128-slurm-worker-003 -> 10.65.8.14] => (item=nginx)
+changed: [cluster-128-slurm-worker-012 -> 10.65.8.18] => (item=postgres)
+changed: [cluster-128-slurm-worker-013 -> 10.65.8.19] => (item=postgres)
+changed: [cluster-128-slurm-worker-015 -> 10.65.8.16] => (item=postgres)
+changed: [cluster-128-slurm-worker-010 -> 10.65.8.4] => (item=nginx)
+changed: [cluster-128-slurm-worker-007 -> 10.65.8.6] => (item=nginx)
+changed: [cluster-128-slurm-worker-016 -> 10.65.8.22] => (item=postgres)
+changed: [cluster-128-slurm-worker-018 -> 10.65.8.5] => (item=postgres)
+changed: [cluster-128-slurm-worker-023 -> 10.65.8.26] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-020 -> 10.65.8.23] => (item=postgres)
+changed: [cluster-128-slurm-worker-014 -> 10.65.8.21] => (item=nginx)
+changed: [cluster-128-slurm-worker-021 -> 10.65.8.25] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-017 -> 10.65.8.9] => (item=postgres)
+changed: [cluster-128-slurm-worker-024 -> 10.65.8.24] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-013 -> 10.65.8.19] => (item=nginx)
+changed: [cluster-128-slurm-worker-025 -> 10.65.8.27] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-022 -> 10.65.8.28] => (item=postgres)
+changed: [cluster-128-slurm-worker-015 -> 10.65.8.16] => (item=nginx)
+changed: [cluster-128-slurm-worker-020 -> 10.65.8.23] => (item=nginx)
+changed: [cluster-128-slurm-worker-019 -> 10.65.8.17] => (item=postgres)
+changed: [cluster-128-slurm-worker-026 -> 10.65.8.29] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-012 -> 10.65.8.18] => (item=nginx)
+changed: [cluster-128-slurm-worker-017 -> 10.65.8.9] => (item=nginx)
+changed: [cluster-128-slurm-worker-029 -> 10.65.8.32] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-018 -> 10.65.8.5] => (item=nginx)
+changed: [cluster-128-slurm-worker-027 -> 10.65.8.31] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-021 -> 10.65.8.25] => (item=postgres)
+changed: [cluster-128-slurm-worker-023 -> 10.65.8.26] => (item=postgres)
+changed: [cluster-128-slurm-worker-022 -> 10.65.8.28] => (item=nginx)
+changed: [cluster-128-slurm-worker-019 -> 10.65.8.17] => (item=nginx)
+changed: [cluster-128-slurm-worker-025 -> 10.65.8.27] => (item=postgres)
+changed: [cluster-128-slurm-worker-024 -> 10.65.8.24] => (item=postgres)
+changed: [cluster-128-slurm-worker-028 -> 10.65.8.30] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-016 -> 10.65.8.22] => (item=nginx)
+changed: [cluster-128-slurm-worker-026 -> 10.65.8.29] => (item=postgres)
+changed: [cluster-128-slurm-worker-030 -> 10.65.8.36] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-026 -> 10.65.8.29] => (item=nginx)
+changed: [cluster-128-slurm-worker-028 -> 10.65.8.30] => (item=postgres)
+changed: [cluster-128-postgresql-master-001 -> 10.65.8.34] => (item=tissuemaps)
+changed: [cluster-128-ganglia-server-001 -> 130.60.24.164] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-029 -> 10.65.8.32] => (item=postgres)
+changed: [cluster-128-slurm-worker-027 -> 10.65.8.31] => (item=postgres)
+changed: [cluster-128-slurm-worker-031 -> 10.65.8.39] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-025 -> 10.65.8.27] => (item=nginx)
+changed: [cluster-128-slurm-frontend-001 -> 130.60.24.119] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-032 -> 10.65.8.35] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-029 -> 10.65.8.32] => (item=nginx)
+changed: [cluster-128-slurm-frontend-001 -> 130.60.24.119] => (item=postgres)
+changed: [cluster-128-postgresql-worker-003 -> 10.65.8.42] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-032 -> 10.65.8.35] => (item=postgres)
+changed: [cluster-128-postgresql-worker-001 -> 10.65.8.37] => (item=tissuemaps)
+changed: [cluster-128-postgresql-worker-002 -> 10.65.8.41] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-027 -> 10.65.8.31] => (item=nginx)
+changed: [cluster-128-slurm-worker-030 -> 10.65.8.36] => (item=postgres)
+changed: [cluster-128-slurm-worker-024 -> 10.65.8.24] => (item=nginx)
+changed: [cluster-128-slurm-worker-023 -> 10.65.8.26] => (item=nginx)
+changed: [cluster-128-slurm-worker-021 -> 10.65.8.25] => (item=nginx)
+changed: [cluster-128-slurm-worker-028 -> 10.65.8.30] => (item=nginx)
+changed: [cluster-128-postgresql-worker-004 -> 10.65.8.40] => (item=tissuemaps)
+changed: [cluster-128-ganglia-server-001 -> 130.60.24.164] => (item=postgres)
+changed: [cluster-128-postgresql-master-001 -> 10.65.8.34] => (item=postgres)
+changed: [cluster-128-postgresql-worker-006 -> 10.65.8.45] => (item=tissuemaps)
+changed: [cluster-128-postgresql-worker-005 -> 10.65.8.43] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-031 -> 10.65.8.39] => (item=postgres)
+changed: [cluster-128-glusterfs-server-001 -> 10.65.8.47] => (item=tissuemaps)
+changed: [cluster-128-slurm-frontend-001 -> 130.60.24.119] => (item=nginx)
+changed: [cluster-128-postgresql-worker-001 -> 10.65.8.37] => (item=postgres)
+changed: [cluster-128-postgresql-worker-008 -> 10.65.8.46] => (item=tissuemaps)
+changed: [cluster-128-postgresql-worker-002 -> 10.65.8.41] => (item=postgres)
+changed: [cluster-128-slurm-worker-031 -> 10.65.8.39] => (item=nginx)
+changed: [cluster-128-postgresql-worker-003 -> 10.65.8.42] => (item=postgres)
+changed: [cluster-128-slurm-worker-032 -> 10.65.8.35] => (item=nginx)
+changed: [cluster-128-postgresql-worker-007 -> 10.65.8.44] => (item=tissuemaps)
+changed: [cluster-128-slurm-worker-030 -> 10.65.8.36] => (item=nginx)
+changed: [cluster-128-postgresql-worker-005 -> 10.65.8.43] => (item=postgres)
+changed: [cluster-128-postgresql-master-001 -> 10.65.8.34] => (item=nginx)
+changed: [cluster-128-ganglia-server-001 -> 130.60.24.164] => (item=nginx)
+changed: [cluster-128-postgresql-worker-006 -> 10.65.8.45] => (item=postgres)
+changed: [cluster-128-glusterfs-server-002 -> 10.65.8.50] => (item=tissuemaps)
+changed: [cluster-128-postgresql-worker-002 -> 10.65.8.41] => (item=nginx)
+changed: [cluster-128-postgresql-worker-004 -> 10.65.8.40] => (item=postgres)
+changed: [cluster-128-postgresql-worker-003 -> 10.65.8.42] => (item=nginx)
+changed: [cluster-128-glusterfs-server-004 -> 10.65.8.51] => (item=tissuemaps)
+changed: [cluster-128-postgresql-worker-005 -> 10.65.8.43] => (item=nginx)
+changed: [cluster-128-postgresql-worker-007 -> 10.65.8.44] => (item=postgres)
+changed: [cluster-128-postgresql-worker-006 -> 10.65.8.45] => (item=nginx)
+changed: [cluster-128-glusterfs-server-001 -> 10.65.8.47] => (item=postgres)
+changed: [cluster-128-glusterfs-server-007 -> 10.65.8.53] => (item=tissuemaps)
+changed: [cluster-128-postgresql-worker-001 -> 10.65.8.37] => (item=nginx)
+changed: [cluster-128-glusterfs-server-003 -> 10.65.8.48] => (item=tissuemaps)
+changed: [cluster-128-postgresql-worker-008 -> 10.65.8.46] => (item=postgres)
+changed: [cluster-128-glusterfs-server-008 -> 10.65.8.54] => (item=tissuemaps)
+changed: [cluster-128-glusterfs-server-006 -> 10.65.8.52] => (item=tissuemaps)
+changed: [cluster-128-glusterfs-server-002 -> 10.65.8.50] => (item=postgres)
+changed: [cluster-128-postgresql-worker-004 -> 10.65.8.40] => (item=nginx)
+changed: [cluster-128-glusterfs-server-005 -> 10.65.8.49] => (item=tissuemaps)
+changed: [cluster-128-glusterfs-server-004 -> 10.65.8.51] => (item=postgres)
+changed: [cluster-128-postgresql-worker-007 -> 10.65.8.44] => (item=nginx)
+changed: [cluster-128-glusterfs-server-007 -> 10.65.8.53] => (item=postgres)
+changed: [cluster-128-glusterfs-server-001 -> 10.65.8.47] => (item=nginx)
+changed: [cluster-128-postgresql-worker-008 -> 10.65.8.46] => (item=nginx)
+changed: [cluster-128-glusterfs-server-008 -> 10.65.8.54] => (item=postgres)
+changed: [cluster-128-glusterfs-server-003 -> 10.65.8.48] => (item=postgres)
+changed: [cluster-128-glusterfs-server-004 -> 10.65.8.51] => (item=nginx)
+changed: [cluster-128-glusterfs-server-006 -> 10.65.8.52] => (item=postgres)
+changed: [cluster-128-glusterfs-server-002 -> 10.65.8.50] => (item=nginx)
+changed: [cluster-128-glusterfs-server-007 -> 10.65.8.53] => (item=nginx)
+changed: [cluster-128-glusterfs-server-005 -> 10.65.8.49] => (item=postgres)
+changed: [cluster-128-glusterfs-server-008 -> 10.65.8.54] => (item=nginx)
+changed: [cluster-128-glusterfs-server-006 -> 10.65.8.52] => (item=nginx)
+changed: [cluster-128-glusterfs-server-003 -> 10.65.8.48] => (item=nginx)
+changed: [cluster-128-glusterfs-server-005 -> 10.65.8.49] => (item=nginx)
+
+TASK [cloud-instance : Add tm_user to sudoers] ***********************************************************************************************************************************
+changed: [cluster-128-slurm-worker-006 -> 10.65.8.7]
+changed: [cluster-128-slurm-worker-002 -> 10.65.8.15]
+changed: [cluster-128-slurm-worker-001 -> 10.65.8.11]
+changed: [cluster-128-slurm-worker-003 -> 10.65.8.14]
+changed: [cluster-128-slurm-worker-008 -> 10.65.8.10]
+changed: [cluster-128-slurm-worker-010 -> 10.65.8.4]
+changed: [cluster-128-slurm-worker-007 -> 10.65.8.6]
+changed: [cluster-128-slurm-worker-005 -> 10.65.8.8]
+changed: [cluster-128-slurm-worker-004 -> 10.65.8.20]
+changed: [cluster-128-slurm-worker-009 -> 10.65.8.13]
+changed: [cluster-128-slurm-worker-011 -> 10.65.8.12]
+changed: [cluster-128-slurm-worker-014 -> 10.65.8.21]
+changed: [cluster-128-slurm-worker-017 -> 10.65.8.9]
+changed: [cluster-128-slurm-worker-015 -> 10.65.8.16]
+changed: [cluster-128-slurm-worker-016 -> 10.65.8.22]
+changed: [cluster-128-slurm-worker-018 -> 10.65.8.5]
+changed: [cluster-128-slurm-worker-020 -> 10.65.8.23]
+changed: [cluster-128-slurm-worker-012 -> 10.65.8.18]
+changed: [cluster-128-slurm-worker-019 -> 10.65.8.17]
+changed: [cluster-128-slurm-worker-021 -> 10.65.8.25]
+changed: [cluster-128-slurm-worker-023 -> 10.65.8.26]
+changed: [cluster-128-slurm-worker-022 -> 10.65.8.28]
+changed: [cluster-128-slurm-worker-024 -> 10.65.8.24]
+changed: [cluster-128-slurm-worker-013 -> 10.65.8.19]
+changed: [cluster-128-slurm-worker-026 -> 10.65.8.29]
+changed: [cluster-128-slurm-worker-025 -> 10.65.8.27]
+changed: [cluster-128-slurm-worker-029 -> 10.65.8.32]
+changed: [cluster-128-slurm-worker-027 -> 10.65.8.31]
+changed: [cluster-128-slurm-worker-028 -> 10.65.8.30]
+changed: [cluster-128-slurm-worker-031 -> 10.65.8.39]
+changed: [cluster-128-slurm-worker-030 -> 10.65.8.36]
+changed: [cluster-128-slurm-worker-032 -> 10.65.8.35]
+changed: [cluster-128-ganglia-server-001 -> 130.60.24.164]
+changed: [cluster-128-slurm-frontend-001 -> 130.60.24.119]
+changed: [cluster-128-postgresql-worker-002 -> 10.65.8.41]
+changed: [cluster-128-postgresql-worker-001 -> 10.65.8.37]
+changed: [cluster-128-postgresql-master-001 -> 10.65.8.34]
+changed: [cluster-128-postgresql-worker-003 -> 10.65.8.42]
+changed: [cluster-128-postgresql-worker-005 -> 10.65.8.43]
+changed: [cluster-128-postgresql-worker-004 -> 10.65.8.40]
+changed: [cluster-128-postgresql-worker-006 -> 10.65.8.45]
+changed: [cluster-128-postgresql-worker-007 -> 10.65.8.44]
+changed: [cluster-128-postgresql-worker-008 -> 10.65.8.46]
+changed: [cluster-128-glusterfs-server-004 -> 10.65.8.51]
+changed: [cluster-128-glusterfs-server-001 -> 10.65.8.47]
+changed: [cluster-128-glusterfs-server-002 -> 10.65.8.50]
+changed: [cluster-128-glusterfs-server-003 -> 10.65.8.48]
+changed: [cluster-128-glusterfs-server-006 -> 10.65.8.52]
+changed: [cluster-128-glusterfs-server-007 -> 10.65.8.53]
+changed: [cluster-128-glusterfs-server-005 -> 10.65.8.49]
+changed: [cluster-128-glusterfs-server-008 -> 10.65.8.54]
+
+TASK [cloud-instance : Create SSH directory for tm_user] *************************************************************************************************************************
+changed: [cluster-128-slurm-worker-002 -> 10.65.8.15]
+changed: [cluster-128-slurm-worker-001 -> 10.65.8.11]
+changed: [cluster-128-slurm-worker-005 -> 10.65.8.8]
+changed: [cluster-128-slurm-worker-003 -> 10.65.8.14]
+changed: [cluster-128-slurm-worker-006 -> 10.65.8.7]
+changed: [cluster-128-slurm-worker-009 -> 10.65.8.13]
+changed: [cluster-128-slurm-worker-007 -> 10.65.8.6]
+changed: [cluster-128-slurm-worker-004 -> 10.65.8.20]
+changed: [cluster-128-slurm-worker-008 -> 10.65.8.10]
+changed: [cluster-128-slurm-worker-010 -> 10.65.8.4]
+changed: [cluster-128-slurm-worker-011 -> 10.65.8.12]
+changed: [cluster-128-slurm-worker-013 -> 10.65.8.19]
+changed: [cluster-128-slurm-worker-014 -> 10.65.8.21]
+changed: [cluster-128-slurm-worker-015 -> 10.65.8.16]
+changed: [cluster-128-slurm-worker-017 -> 10.65.8.9]
+changed: [cluster-128-slurm-worker-016 -> 10.65.8.22]
+changed: [cluster-128-slurm-worker-012 -> 10.65.8.18]
+changed: [cluster-128-slurm-worker-018 -> 10.65.8.5]
+changed: [cluster-128-slurm-worker-020 -> 10.65.8.23]
+changed: [cluster-128-slurm-worker-019 -> 10.65.8.17]
+changed: [cluster-128-slurm-worker-021 -> 10.65.8.25]
+changed: [cluster-128-slurm-worker-022 -> 10.65.8.28]
+changed: [cluster-128-slurm-worker-023 -> 10.65.8.26]
+changed: [cluster-128-slurm-worker-024 -> 10.65.8.24]
+changed: [cluster-128-slurm-worker-025 -> 10.65.8.27]
+changed: [cluster-128-slurm-worker-026 -> 10.65.8.29]
+changed: [cluster-128-slurm-worker-027 -> 10.65.8.31]
+changed: [cluster-128-slurm-worker-029 -> 10.65.8.32]
+changed: [cluster-128-slurm-worker-032 -> 10.65.8.35]
+changed: [cluster-128-slurm-worker-030 -> 10.65.8.36]
+changed: [cluster-128-slurm-frontend-001 -> 130.60.24.119]
+changed: [cluster-128-slurm-worker-028 -> 10.65.8.30]
+changed: [cluster-128-slurm-worker-031 -> 10.65.8.39]
+changed: [cluster-128-postgresql-worker-002 -> 10.65.8.41]
+changed: [cluster-128-postgresql-master-001 -> 10.65.8.34]
+changed: [cluster-128-ganglia-server-001 -> 130.60.24.164]
+changed: [cluster-128-postgresql-worker-001 -> 10.65.8.37]
+changed: [cluster-128-postgresql-worker-006 -> 10.65.8.45]
+changed: [cluster-128-postgresql-worker-004 -> 10.65.8.40]
+changed: [cluster-128-postgresql-worker-005 -> 10.65.8.43]
+changed: [cluster-128-postgresql-worker-003 -> 10.65.8.42]
+changed: [cluster-128-postgresql-worker-008 -> 10.65.8.46]
+changed: [cluster-128-postgresql-worker-007 -> 10.65.8.44]
+changed: [cluster-128-glusterfs-server-002 -> 10.65.8.50]
+changed: [cluster-128-glusterfs-server-003 -> 10.65.8.48]
+changed: [cluster-128-glusterfs-server-004 -> 10.65.8.51]
+changed: [cluster-128-glusterfs-server-006 -> 10.65.8.52]
+changed: [cluster-128-glusterfs-server-001 -> 10.65.8.47]
+changed: [cluster-128-glusterfs-server-007 -> 10.65.8.53]
+changed: [cluster-128-glusterfs-server-005 -> 10.65.8.49]
+changed: [cluster-128-glusterfs-server-008 -> 10.65.8.54]
+
+TASK [cloud-instance : Enable SSH access for tm_user] ****************************************************************************************************************************
+changed: [cluster-128-slurm-worker-002 -> 10.65.8.15]
+changed: [cluster-128-slurm-worker-004 -> 10.65.8.20]
+changed: [cluster-128-slurm-worker-006 -> 10.65.8.7]
+changed: [cluster-128-slurm-worker-005 -> 10.65.8.8]
+changed: [cluster-128-slurm-worker-003 -> 10.65.8.14]
+changed: [cluster-128-slurm-worker-007 -> 10.65.8.6]
+changed: [cluster-128-slurm-worker-009 -> 10.65.8.13]
+changed: [cluster-128-slurm-worker-011 -> 10.65.8.12]
+changed: [cluster-128-slurm-worker-008 -> 10.65.8.10]
+changed: [cluster-128-slurm-worker-010 -> 10.65.8.4]
+changed: [cluster-128-slurm-worker-001 -> 10.65.8.11]
+changed: [cluster-128-slurm-worker-013 -> 10.65.8.19]
+changed: [cluster-128-slurm-worker-015 -> 10.65.8.16]
+changed: [cluster-128-slurm-worker-014 -> 10.65.8.21]
+changed: [cluster-128-slurm-worker-012 -> 10.65.8.18]
+changed: [cluster-128-slurm-worker-017 -> 10.65.8.9]
+changed: [cluster-128-slurm-worker-018 -> 10.65.8.5]
+changed: [cluster-128-slurm-worker-020 -> 10.65.8.23]
+changed: [cluster-128-slurm-worker-019 -> 10.65.8.17]
+changed: [cluster-128-slurm-worker-022 -> 10.65.8.28]
+changed: [cluster-128-slurm-worker-023 -> 10.65.8.26]
+changed: [cluster-128-slurm-worker-024 -> 10.65.8.24]
+changed: [cluster-128-slurm-worker-021 -> 10.65.8.25]
+changed: [cluster-128-slurm-worker-025 -> 10.65.8.27]
+changed: [cluster-128-slurm-worker-027 -> 10.65.8.31]
+changed: [cluster-128-slurm-worker-026 -> 10.65.8.29]
+changed: [cluster-128-slurm-worker-028 -> 10.65.8.30]
+changed: [cluster-128-slurm-worker-029 -> 10.65.8.32]
+changed: [cluster-128-slurm-worker-030 -> 10.65.8.36]
+changed: [cluster-128-slurm-worker-031 -> 10.65.8.39]
+changed: [cluster-128-slurm-worker-032 -> 10.65.8.35]
+changed: [cluster-128-slurm-worker-016 -> 10.65.8.22]
+changed: [cluster-128-slurm-frontend-001 -> 130.60.24.119]
+changed: [cluster-128-ganglia-server-001 -> 130.60.24.164]
+changed: [cluster-128-postgresql-master-001 -> 10.65.8.34]
+changed: [cluster-128-postgresql-worker-003 -> 10.65.8.42]
+changed: [cluster-128-postgresql-worker-001 -> 10.65.8.37]
+changed: [cluster-128-postgresql-worker-002 -> 10.65.8.41]
+changed: [cluster-128-postgresql-worker-005 -> 10.65.8.43]
+changed: [cluster-128-postgresql-worker-004 -> 10.65.8.40]
+changed: [cluster-128-postgresql-worker-008 -> 10.65.8.46]
+changed: [cluster-128-glusterfs-server-004 -> 10.65.8.51]
+changed: [cluster-128-glusterfs-server-003 -> 10.65.8.48]
+changed: [cluster-128-glusterfs-server-006 -> 10.65.8.52]
+changed: [cluster-128-glusterfs-server-007 -> 10.65.8.53]
+changed: [cluster-128-glusterfs-server-002 -> 10.65.8.50]
+changed: [cluster-128-glusterfs-server-001 -> 10.65.8.47]
+changed: [cluster-128-glusterfs-server-005 -> 10.65.8.49]
+changed: [cluster-128-glusterfs-server-008 -> 10.65.8.54]
+changed: [cluster-128-postgresql-worker-006 -> 10.65.8.45]
+changed: [cluster-128-postgresql-worker-007 -> 10.65.8.44]
+
+PLAY RECAP ***********************************************************************************************************************************************************************
+cluster-128-ganglia-server-001 : ok=10   changed=8    unreachable=0    failed=0   
+cluster-128-glusterfs-server-001 : ok=22   changed=13   unreachable=0    failed=0   
+cluster-128-glusterfs-server-002 : ok=22   changed=13   unreachable=0    failed=0   
+cluster-128-glusterfs-server-003 : ok=22   changed=13   unreachable=0    failed=0   
+cluster-128-glusterfs-server-004 : ok=22   changed=13   unreachable=0    failed=0   
+cluster-128-glusterfs-server-005 : ok=22   changed=13   unreachable=0    failed=0   
+cluster-128-glusterfs-server-006 : ok=22   changed=13   unreachable=0    failed=0   
+cluster-128-glusterfs-server-007 : ok=22   changed=13   unreachable=0    failed=0   
+cluster-128-glusterfs-server-008 : ok=22   changed=13   unreachable=0    failed=0   
+cluster-128-postgresql-master-001 : ok=22   changed=13   unreachable=0    failed=0   
+cluster-128-postgresql-worker-001 : ok=22   changed=13   unreachable=0    failed=0   
+cluster-128-postgresql-worker-002 : ok=22   changed=13   unreachable=0    failed=0   
+cluster-128-postgresql-worker-003 : ok=22   changed=13   unreachable=0    failed=0   
+cluster-128-postgresql-worker-004 : ok=22   changed=13   unreachable=0    failed=0   
+cluster-128-postgresql-worker-005 : ok=22   changed=13   unreachable=0    failed=0   
+cluster-128-postgresql-worker-006 : ok=22   changed=13   unreachable=0    failed=0   
+cluster-128-postgresql-worker-007 : ok=22   changed=13   unreachable=0    failed=0   
+cluster-128-postgresql-worker-008 : ok=22   changed=13   unreachable=0    failed=0   
+cluster-128-slurm-frontend-001 : ok=10   changed=8    unreachable=0    failed=0   
+cluster-128-slurm-worker-001 : ok=30   changed=13   unreachable=0    failed=0   
+cluster-128-slurm-worker-002 : ok=10   changed=8    unreachable=0    failed=0   
+cluster-128-slurm-worker-003 : ok=10   changed=8    unreachable=0    failed=0   
+cluster-128-slurm-worker-004 : ok=10   changed=8    unreachable=0    failed=0   
+cluster-128-slurm-worker-005 : ok=10   changed=8    unreachable=0    failed=0   
+cluster-128-slurm-worker-006 : ok=10   changed=8    unreachable=0    failed=0   
+cluster-128-slurm-worker-007 : ok=10   changed=8    unreachable=0    failed=0   
+cluster-128-slurm-worker-008 : ok=10   changed=8    unreachable=0    failed=0   
+cluster-128-slurm-worker-009 : ok=10   changed=8    unreachable=0    failed=0   
+cluster-128-slurm-worker-010 : ok=10   changed=8    unreachable=0    failed=0   
+cluster-128-slurm-worker-011 : ok=10   changed=8    unreachable=0    failed=0   
+cluster-128-slurm-worker-012 : ok=10   changed=8    unreachable=0    failed=0   
+cluster-128-slurm-worker-013 : ok=10   changed=8    unreachable=0    failed=0   
+cluster-128-slurm-worker-014 : ok=10   changed=8    unreachable=0    failed=0   
+cluster-128-slurm-worker-015 : ok=10   changed=8    unreachable=0    failed=0   
+cluster-128-slurm-worker-016 : ok=10   changed=8    unreachable=0    failed=0   
+cluster-128-slurm-worker-017 : ok=10   changed=8    unreachable=0    failed=0   
+cluster-128-slurm-worker-018 : ok=10   changed=8    unreachable=0    failed=0   
+cluster-128-slurm-worker-019 : ok=10   changed=8    unreachable=0    failed=0   
+cluster-128-slurm-worker-020 : ok=10   changed=8    unreachable=0    failed=0   
+cluster-128-slurm-worker-021 : ok=10   changed=8    unreachable=0    failed=0   
+cluster-128-slurm-worker-022 : ok=10   changed=8    unreachable=0    failed=0   
+cluster-128-slurm-worker-023 : ok=10   changed=8    unreachable=0    failed=0   
+cluster-128-slurm-worker-024 : ok=10   changed=8    unreachable=0    failed=0   
+cluster-128-slurm-worker-025 : ok=10   changed=8    unreachable=0    failed=0   
+cluster-128-slurm-worker-026 : ok=10   changed=8    unreachable=0    failed=0   
+cluster-128-slurm-worker-027 : ok=10   changed=8    unreachable=0    failed=0   
+cluster-128-slurm-worker-028 : ok=10   changed=8    unreachable=0    failed=0   
+cluster-128-slurm-worker-029 : ok=10   changed=8    unreachable=0    failed=0   
+cluster-128-slurm-worker-030 : ok=10   changed=8    unreachable=0    failed=0   
+cluster-128-slurm-worker-031 : ok=10   changed=8    unreachable=0    failed=0   
+cluster-128-slurm-worker-032 : ok=10   changed=8    unreachable=0    failed=0   
+
+	Command being timed: "tm_deploy -v vm -s /home/centos/tmbenchmark/setup/cluster-128.yaml launch"
+	User time (seconds): 242.41
+	System time (seconds): 69.65
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 5:11.46
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 119504
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13457604
+	Voluntary context switches: 363883
+	Involuntary context switches: 20997
+	Swaps: 0
+	File system inputs: 16
+	File system outputs: 25352
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
