@@ -1,0 +1,46 @@
+---
+input:
+- help: Image in which blobs should be detected.
+  key: '5'
+  name: image
+  type: IntensityImage
+- help: Mask for pixel regions in which blobs should be detected.
+  key: segment_secondary.secondary_label_image
+  name: mask
+  type: MaskImage
+- help: 'Factor by which pixel values in "image" must be above background to be considered
+    part of a blob.
+
+    '
+  name: threshold
+  type: Scalar
+  value: 2
+- help: Mininum size of an blob in pixels.
+  name: min_area
+  type: Scalar
+  value: 3
+- help: Estimated average size of a blob.
+  name: mean_area
+  type: Scalar
+  value: 5
+- help: Maximum size of a blob in pixels. Blobs above this size will be discarded.
+  name: max_area
+  type: Scalar
+  value: 100
+- help: Should a figure be created?
+  name: plot
+  type: Plot
+  value: true
+output:
+- help: Centroid positions of blobs.
+  key: detect_blobs.centroids
+  name: centroids
+  type: LabelImage
+- help: Detected blobs.
+  key: detect_blobs.blobs
+  name: blobs
+  type: LabelImage
+- help: ''
+  name: figure
+  type: Figure
+version: 0.6.0

@@ -1,0 +1,62 @@
+---
+input:
+- help: Binary image in which clumps should be separated.
+  key: fill.filled_mask
+  name: mask
+  type: BinaryImage
+- help: Grayscale image that may be used to help separating clumps.
+  key: smooth_dapi.smoothed_image
+  name: intensity_image
+  type: IntensityImage
+- help: 'Minimal area of a cut fragment, cuts that would result in a smaller fragment
+    will not be performed.
+
+    '
+  name: min_cut_area
+  type: Numeric
+  value: 2000
+- help: 'Maximal convexity of an object (connected pixel component) to be considered
+    a clump.
+
+    '
+  name: max_convexity
+  type: Numeric
+  value: 0.9
+- help: 'Maximal circularity of a connected pixel component to be considered a clump.
+
+    '
+  name: max_circularity
+  type: Numeric
+  value: 0.7
+- help: 'Minimal area of a connectd pixel component to be considered a clump.
+
+    '
+  name: min_area
+  type: Numeric
+  value: 7500
+- help: 'Maximal area of a connected pixel component to be considered a clump.
+
+    '
+  name: max_area
+  type: Numeric
+  value: 75000
+- help: Should a figure be created?
+  name: plot
+  type: Plot
+  value: false
+- help: 'Should an alternative figure be created, which shows values for each of the
+    selection criteria (area, convexity, form factor)?
+
+    '
+  name: selection_test_mode
+  type: Boolean
+  value: false
+output:
+- help: Separated clumps.
+  key: separate_clumps.separated_mask
+  name: separated_mask
+  type: MaskImage
+- help: ''
+  name: figure
+  type: Figure
+version: 0.2.0

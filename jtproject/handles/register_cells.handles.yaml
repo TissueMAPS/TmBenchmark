@@ -1,0 +1,14 @@
+---
+input:
+- help: 'Labeled image containing the objects whose segmentation should be saved.
+
+    '
+  key: segment_secondary.secondary_label_image
+  name: mask
+  type: MaskImage
+output:
+- help: Name that should be given to the objects in "mask".
+  key: Cells
+  name: objects
+  type: SegmentedObjects
+version: 0.1.0

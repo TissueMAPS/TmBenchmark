@@ -1,0 +1,23 @@
+---
+input:
+- help: Image that should be clipped.
+  key: segment_secondary.secondary_label_image
+  name: image
+  type: MaskImage
+- help: Image that should be used as clipping mask.
+  key: fill.filled_mask
+  name: clipping_mask
+  type: MaskImage
+- help: Should a figure be created?
+  name: plot
+  type: Plot
+  value: false
+output:
+- help: Clipped mask.
+  key: clip.clipped_image
+  name: clipped_image
+  type: MaskImage
+- help: Comparison of "image", "clipping_mask" and "clipped_image"
+  name: figure
+  type: Figure
+version: 0.1.0

@@ -1,0 +1,106 @@
+---
+input:
+  channels:
+  - correct: true
+    name: '1'
+  - correct: true
+    name: '3'
+  - correct: true
+    name: '4'
+  - correct: true
+    name: '5'
+  objects: []
+output:
+  objects:
+  - as_polygons: true
+    name: Cells
+  - as_polygons: false
+    name: Transcripts
+pipeline:
+- active: true
+  handles: handles/smooth_dapi.handles.yaml
+  source: smooth.py
+- active: true
+  handles: handles/threshold_adaptive.handles.yaml
+  source: threshold_adaptive.py
+- active: true
+  handles: handles/fill.handles.yaml
+  source: fill.py
+- active: true
+  handles: handles/separate_clumps.handles.yaml
+  source: separate_clumps.py
+- active: true
+  handles: handles/filter.handles.yaml
+  source: filter.py
+- active: true
+  handles: handles/label.handles.yaml
+  source: label.py
+- active: true
+  handles: handles/register_nuclei.handles.yaml
+  source: register_objects.py
+- active: true
+  handles: handles/smooth_celltrace.handles.yaml
+  source: smooth.py
+- active: true
+  handles: handles/segment_secondary.handles.yaml
+  source: segment_secondary.py
+- active: true
+  handles: handles/register_cells.handles.yaml
+  source: register_objects.py
+- active: true
+  handles: handles/clip.handles.yaml
+  source: clip.py
+- active: true
+  handles: handles/register_cytoplasms.handles.yaml
+  source: register_objects.py
+- active: true
+  handles: handles/detect_blobs.handles.yaml
+  source: detect_blobs.py
+- active: true
+  handles: handles/register_transcripts.handles.yaml
+  source: register_objects.py
+- active: true
+  handles: handles/measure_point_pattern.handles.yaml
+  source: measure_point_pattern.py
+- active: true
+  handles: handles/measure_intensity_cells_nuclear_dapi.handles.yaml
+  source: measure_intensity.py
+- active: true
+  handles: handles/measure_intensity_cells_nuclear_celltrace.handles.yaml
+  source: measure_intensity.py
+- active: true
+  handles: handles/measure_intensity_cells_cytoplasmic_celltrace.handles.yaml
+  source: measure_intensity.py
+- active: true
+  handles: handles/measure_intensity_cells_cytoplasmic_mitotracker.handles.yaml
+  source: measure_intensity.py
+- active: true
+  handles: handles/measure_intensity_cells_cytoplasmic_fish.handles.yaml
+  source: measure_intensity.py
+- active: true
+  handles: handles/measure_intensity_cells_total_mitotracker.handles.yaml
+  source: measure_intensity.py
+- active: true
+  handles: handles/measure_intensity_cells_total_celltrace.handles.yaml
+  source: measure_intensity.py
+- active: true
+  handles: handles/measure_morphology_cells.handles.yaml
+  source: measure_morphology.py
+- active: true
+  handles: handles/measure_morphology_cells_nuclear.handles.yaml
+  source: measure_morphology.py
+- active: true
+  handles: handles/measure_texture_cells_nuclear_dapi.handles.yaml
+  source: measure_texture.py
+- active: true
+  handles: handles/measure_texture_cells_cytoplasmic_celltrace.handles.yaml
+  source: measure_texture.py
+- active: true
+  handles: handles/measure_texture_cells_cytoplasmic_mito.handles.yaml
+  source: measure_texture.py
+- active: true
+  handles: handles/measure_intensity_transcripts.handles.yaml
+  source: measure_intensity.py
+- active: true
+  handles: handles/measure_morphology_transcripts.handles.yaml
+  source: measure_morphology.py

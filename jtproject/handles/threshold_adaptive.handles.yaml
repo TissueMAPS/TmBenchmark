@@ -1,0 +1,45 @@
+---
+input:
+- help: Grayscale image that should be thresholded.
+  key: smooth_dapi.smoothed_image
+  name: image
+  type: IntensityImage
+- help: Thresholding method.
+  name: method
+  type: Character
+  value: niblack
+- help: 'Size of the neighbourhood region used to calculate the threshold for each
+    pixel (odd number).
+
+    '
+  name: kernel_size
+  type: Scalar
+  value: 211
+- help: Correction of the threshold computed per neighbourhood region.
+  name: constant
+  type: Scalar
+  value: 0
+- help: Minimal threshold level.
+  name: min_threshold
+  type: Scalar
+  value: 110
+- help: Maximal threshold level.
+  name: max_threshold
+  type: Scalar
+  value: null
+- help: Should a figure be created?
+  name: plot
+  type: Plot
+  value: false
+output:
+- help: 'Binary image where pixels above threshold are assigned to foreground and
+    pixels below threshold to background.
+
+    '
+  key: threshold_adaptive.mask
+  name: mask
+  type: BinaryImage
+- help: ''
+  name: figure
+  type: Figure
+version: 0.2.0

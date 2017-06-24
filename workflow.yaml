@@ -1,0 +1,149 @@
+---
+stages:
+
+- name: image_conversion
+  active: true
+  mode: sequential
+  steps:
+  - name: metaextract
+    active: true
+    batch_args:
+    - name: batch_size
+      type: int
+      value: 100
+    submission_args:
+    - name: cores
+      type: int
+      value: 1
+    - name: duration
+      type: str
+      value: 06:00:00
+    - name: memory
+      type: int
+      value: 5000
+  - name: metaconfig
+    active: true
+    batch_args:
+    - name: n_horizontal
+      type: int
+      value: 7
+    - name: n_vertical
+      type: int
+      value: 7
+    - name: regex
+      type: str
+      value: null
+    - name: stitch_layout
+      type: str
+      value: horizontal
+    submission_args:
+    - name: cores
+      type: int
+      value: 1
+    - name: duration
+      type: str
+      value: 06:00:00
+    - name: memory
+      type: int
+      value: 3000
+  - name: imextract
+    active: true
+    batch_args:
+    - name: batch_size
+      type: int
+      value: 100
+    - name: delete
+      type: bool
+      value: false
+    - name: mip
+      type: bool
+      value: false
+    submission_args:
+    - name: cores
+      type: int
+      value: 1
+    - name: duration
+      type: str
+      value: 06:00:00
+    - name: memory
+      type: int
+      value: 3000
+
+- name: image_preprocessing
+  mode: parallel
+  active: true
+  steps:
+  - name: corilla
+    active: true
+    batch_args: []
+    submission_args:
+    - name: cores
+      type: int
+      value: 1
+    - name: duration
+      type: str
+      value: 06:00:00
+    - name: memory
+      type: int
+      value: 3000
+
+- name: pyramid_creation
+  active: true
+  mode: sequential
+  steps:
+  - name: illuminati
+    active: true
+    batch_args:
+    - name: align
+      type: bool
+      value: false
+    - name: batch_size
+      type: int
+      value: 100
+    - name: clip
+      type: bool
+      value: true
+    - name: clip_percent
+      type: float
+      value: 99.9
+    - name: clip_value
+      type: int
+      value: null
+    - name: illumcorr
+      type: bool
+      value: true
+    submission_args:
+    - name: cores
+      type: int
+      value: 1
+    - name: duration
+      type: str
+      value: 06:00:00
+    - name: memory
+      type: int
+      value: 2000
+
+- name: image_analysis
+  active: true
+  mode: sequential
+  steps:
+  - name: jterator
+    active: true
+    batch_args:
+    - name: batch_size
+      type: int
+      value: 50
+    - name: plot
+      type: bool
+      value: false
+    submission_args:
+    - name: cores
+      type: int
+      value: 1
+    - name: duration
+      type: str
+      value: '12:00:00'
+    - name: memory
+      type: int
+      value: 4000
+type: canonical

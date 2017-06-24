@@ -1,0 +1,14 @@
+---
+input:
+- help: 'Labeled image containing the objects whose segmentation should be saved.
+
+    '
+  key: detect_blobs.blobs
+  name: mask
+  type: MaskImage
+output:
+- help: Name that should be given to the objects in "mask".
+  key: Transcripts
+  name: objects
+  type: SegmentedObjects
+version: 0.1.0
