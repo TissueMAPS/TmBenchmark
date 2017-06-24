@@ -44,31 +44,25 @@ Install Python packages as non-privilaged user:
     $ pip install --user tmclient tmdeploy
 
 
-Deploying servers in the cloud
-------------------------------
+Provisioning and deployment
+---------------------------
 
 Clone this repository:
 
     $ git clone https://github.com/tissuemaps/tmbenchmarks ~/tmbenchmarks
 
-Specify, which of the architectures you would like to set up and run the tests against. To this end, pick one of the setup files for one of the architectures, for example ``cluster-32`` to build a small cluster with 32 CPU cores for compute resources.
+Specify, which of the architectures you would like to set up and run the tests against. To this end, pick one of the setup files for one of the architectures, for example ``cluster-32`` to build a small cluster with 32 CPU cores for compute resources:
 
-Use the ``tm_deploy`` command line tool to launch the servers in the cloud:
+    $ ~/tmbenchmarks/build.sh cluster-32
 
-    $ tm_deploy -vv vm -s ~/tmbenchmarks/setup/cluster-32.yml launch
-
-and deploy the *TissueMAPS* application:
-
-    $ tm_deploy -vv vm -s ~/tmbenchmarks/setup/cluster-32.yml deploy
-
-Running tests
--------------
+Running the actual test
+-----------------------
 
 Once the required infrastructure has been provisioned and the software deployed, you can run the test:
 
-    $ ~/tmbenchmarks/start_test.sh $HOST
+    $ ~/tmbenchmarks/upload-and-submit.sh -n cluster-32 -h $HOST -p $PASSWORD -d $DATA_DIR
 
-where ``HOST`` is the public IP address of the cloud virtual machine that hosts the *TissueMAPS* web server.
+where ``HOST`` is the public IP address of the cloud virtual machine that hosts the *TissueMAPS* web server, ``PASSWORD`` is the password of the user that you specified in the setup file and ``DATA_DIR`` is the path to a local directory that contains the microscope files that should be upload.
 
 You can use the ``tm_inventory`` command line tool to list metadata about machines that have been set up in the cloud (including their IP addresses):
 
