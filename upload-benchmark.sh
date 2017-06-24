@@ -4,6 +4,7 @@ set -e
 
 OPTIND=1
 
+NAME=""
 HOST=""
 PASSWORD=""
 DATA_DIR=""
@@ -11,7 +12,7 @@ DATA_DIR=""
 usage()
 {
 cat << EOF
-Usage: upload-benchmark.sh -h HOST -p PASSWORD -d DATA_DIR
+Usage: upload-benchmark.sh -n NAME -h HOST -p PASSWORD -d DATA_DIR
 
 Uploads data to a TissueMAPS server to perform a benchmark test:
 
@@ -23,15 +24,19 @@ Uploads data to a TissueMAPS server to perform a benchmark test:
 - submits workflow
 
 Arguments:
+   -n      name of the architecture
    -h      IP address of the host to which data should be uploaded to
    -p      password of the "mustermann" user
    -d      path to the directory where mircoscope files are located
 EOF
 }
 
-while getopts "h:p:d:" opt
+while getopts "n:h:p:d:" opt
 do
     case "$opt" in
+    n)
+        NAME=$OPTARG
+        ;;
     h)
         HOST=$OPTARG
         ;;
@@ -52,9 +57,9 @@ do
     esac
 done
 
-if [[ -z $HOST ]] || [[ -z $PASSWORD ]] || [[ -z $PASSWORD ]]
+if [[ -z "$HOST" ]] || [[ -z "$PASSWORD" ]] || [[ -z "$PASSWORD" ]] || [[ -z "$NAME" ]]
 then
-    echo "Error: Arguments HOST and PASSWORD and DATA_DIR are required." >&2
+    echo "Error: Arguments NAME, HOST, PASSWORD and DATA_DIR are required." >&2
     echo
     usage
     exit 1
@@ -64,15 +69,15 @@ shift $((OPTIND-1))
 
 [ "$1" = "--" ] && shift
 
-if ! ping -c 1 $HOST &> /dev/null
+if ! ping -c 1 "$HOST" &> /dev/null
 then
-    echo "Error: Host not found: \"$HOST\""
+    echo "Error: Host not found: \"$HOST\"" >&2
     exit 1
 fi
 
-if [[ ! -d $DATA_DIR ]]
+if [[ ! -d "$DATA_DIR" ]]
 then
-    echo "Error: Data directory not found: \"$DATA_DIR\""
+    echo "Error: Data directory not found: \"$DATA_DIR\"" >&2
     exit 1
 fi
 
@@ -90,25 +95,29 @@ SCRIPT_DIR=$(dirname "$SCRIPT")
 WORKFLOW_FILE="$SCRIPT_DIR/workflow.yaml"
 JTPROJECT_DIR="$SCRIPT_DIR/jtproject"
 
-echo "Create experiment \"$EXPERIMENT\""
-BASE_COMMAND experiment create -n $EXPERIMENT
+ALL_COMMANDS () {
+    echo "Create experiment \"$EXPERIMENT\""
+    BASE_COMMAND experiment create -n $EXPERIMENT
 
-echo "Create plate \"$PLATE\""
-BASE_COMMAND plate -e $EXPERIMENT create -n $PLATE
+    echo "Create plate \"$PLATE\""
+    BASE_COMMAND plate -e $EXPERIMENT create -n $PLATE
 
-echo "Create acquisition \"$ACQUISITION\""
-BASE_COMMAND acquisition -e $EXPERIMENT create -p $PLATE -n $ACQUISITION
+    echo "Create acquisition \"$ACQUISITION\""
+    BASE_COMMAND acquisition -e $EXPERIMENT create -p $PLATE -n $ACQUISITION
 
-echo "Upload microscope files from \"$DATA_DIR\""
-BASE_COMMAND microscope-file -e $EXPERIMENT upload -p $PLATE -a $ACQUISITION --directory $DATA_DIR
+    echo "Upload microscope files from \"$DATA_DIR\""
+    BASE_COMMAND microscope-file -e $EXPERIMENT upload -p $PLATE -a $ACQUISITION --directory $DATA_DIR
 
-echo "Upload workflow description from \"$WORKFLOW_FILE\""
-BASE_COMMAND workflow -e $EXPERIMENT upload --file $WORKFLOW_FILE
+    echo "Upload workflow description from \"$WORKFLOW_FILE\""
+    BASE_COMMAND workflow -e $EXPERIMENT upload --file $WORKFLOW_FILE
 
-echo "Upload jterator project description from \"$JTPROJECT_DIR\""
-BASE_COMMAND jtproject -e $EXPERIMENT upload --directory $JTPROJECT_DIR
+    echo "Upload jterator project description from \"$JTPROJECT_DIR\""
+    BASE_COMMAND jtproject -e $EXPERIMENT upload --directory $JTPROJECT_DIR
 
-echo "Submit workflow"
-BASE_COMMAND workflow -e $EXPERIMENT submit
+    echo "Submit workflow"
+    BASE_COMMAND workflow -e $EXPERIMENT submit
+}
+
+ALL_COMMANDS > "$SCRIPT_DIR/log/$NAME.upload.log" 2>&1
 
 exit 0

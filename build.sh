@@ -6,7 +6,7 @@ NAME=$1
 
 if [[ -z $NAME ]]
 then
-    echo "Error: Name of the architecture must be provided."
+    echo "Error: Name of the architecture must be provided." >&2
     exit 1
 fi
 
