@@ -12,22 +12,26 @@ DATA_DIR=""
 usage()
 {
 cat << EOF
-Usage: upload-benchmark.sh -n NAME -h HOST -p PASSWORD -d DATA_DIR
+Usage: upload-and-submit.sh -n NAME -h HOST -p PASSWORD -d DATA_DIR
 
-Uploads data to a TissueMAPS server to perform a benchmark test:
+Uploads image data to a TissueMAPS server to perform a benchmark test:
 
-- creates a experiment named "benchmark"
-- creates a plate named "plate1" and an acquisition named "acquisition1"
-- uploads microscope image files
-- uploads workflow description in YAML format
-- uploads jterator project description in YAML format
-- submits workflow
+- creates an experiment "benchmark"
+- creates a plate "plate1" and an acquisition "acquisition1"
+- uploads microscope files located in DATA_DIR
+- uploads workflow description from a file in YAML format
+- uploads jterator project description from files in YAML format
+- submits workflow for asynchronous remote processing
+
+Assumes that the architecture has been built using setup file "NAME.yml"
+provided via the Github repository "tissuemaps/tmbenchmark" and the server side
+existence of a TissueMAPS user "mustermann" with matching PASSWORD.
 
 Arguments:
    -n      name of the architecture
-   -h      IP address of the host to which data should be uploaded to
+   -h      IP address of the server to which data should be uploaded to
    -p      password of the "mustermann" user
-   -d      path to the directory where mircoscope files are located
+   -d      path to the directory that contains the microscope files
 EOF
 }
 
