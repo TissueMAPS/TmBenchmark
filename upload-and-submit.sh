@@ -23,7 +23,7 @@ Uploads image data to a TissueMAPS server to perform a benchmark test:
 - uploads jterator project description from files in YAML format
 - submits workflow for asynchronous remote processing
 
-Assumes that the architecture has been built using setup file "NAME.yml"
+Assumes that the architecture has been built using setup file "NAME.yaml"
 provided via the Github repository "tissuemaps/tmbenchmark" and the server side
 existence of a TissueMAPS user "mustermann" with matching PASSWORD.
 
