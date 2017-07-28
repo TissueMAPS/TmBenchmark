@@ -1,0 +1,2 @@
+tmclient==0.3.2
+tmdeploy==0.3.2
