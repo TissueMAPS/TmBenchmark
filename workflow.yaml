@@ -1,6 +1,6 @@
 ---
-stages:
 type: canonical
+stages:
 
 - name: image_conversion
   steps:
