@@ -13,7 +13,7 @@ DATA_DIR=""
 usage()
 {
 cat << EOF
-Usage: download.sh -p PROVIDER -c CLUSTER -H HOST -d DATA_DIR
+Usage: download-results.sh -p PROVIDER -c CLUSTER -H HOST -d DATA_DIR
 
 Downloads feature data and job statistics from a TissueMAPS server after a benchmark test:
 
@@ -57,6 +57,10 @@ do
     esac
 done
 
+shift $((OPTIND-1))
+
+[ "$1" = "--" ] && shift
+
 if [[ -z "$HOST" ]] || [[ -z "$DATA_DIR" ]] || [[ -z "$CLUSTER" ]] || [[ -z "$PROVIDER" ]]
 then
     echo "Error: Arguments PROVIDER, CLUSTER, HOST and DATA_DIR are required." >&2
@@ -64,10 +68,6 @@ then
     usage
     exit 1
 fi
-
-shift $((OPTIND-1))
-
-[ "$1" = "--" ] && shift
 
 if ! ping -c 1 "$HOST" &> /dev/null
 then
@@ -84,7 +84,7 @@ fi
 SUPPORTED_PROVIDERS=('sciencecloud', 'aws', 'google')
 if echo $SUPPORTED_PROVIDERS[@] | grep -q -v -w "$PROVIDER"
 then
-    echo "Error: Unknown provider \"$PROVIDER\"." >&2
+    echo "Error: Unknown cloud provider \"$PROVIDER\"." >&2
     exit 1
 fi
 
