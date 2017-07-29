@@ -150,24 +150,14 @@ def download_raw_metrics(host, cluster, workflow_statistics):
     ganglia_dt_format = '%m%%2F%d%%2F%Y+%H%%3A%M'
     workflow_dt_format = '%Y-%m-%d %H:%M:%S'
     data = dict()
-    for i, step in enumerate(WORKFLOW_STEPS):
-
-        current_index = np.where(
-            workflow_statistics['name'] == step
-        )[0][0]
+    for step in WORKFLOW_STEPS:
+        current_index = np.where(workflow_statistics['name'] == step)[0][0]
         current_step_stats = workflow_statistics.loc[current_index, :]
-        if i > 0:
-            prior_step_index = np.where(
-                workflow_statistics['name'] == WORKFLOW_STEPS[i-1]
-            )[0][0]
-            prior_step_stats = workflow_statistics.loc[prior_step_index, :]
-            start = prior_step_stats['updated_at'].split('.')[0]
-        else:
-            first_task_index = np.where(
-                workflow_statistics['name'] == '{}_init'.format(step)
-            )[0][0]
-            first_task_stats = workflow_statistics.loc[first_task_index, :]
-            start = first_task_stats['updated_at'].split('.')[0]
+        first_task_index = np.where(
+            workflow_statistics['name'] == '{}_init'.format(step)
+        )[0][0]
+        first_task_stats = workflow_statistics.loc[first_task_index, :]
+        start = first_task_stats['updated_at'].split('.')[0]
         start = datetime.strptime(start, workflow_dt_format)
         end = current_step_stats['updated_at'].split('.')[0]
         end = datetime.strptime(end, workflow_dt_format)
@@ -189,7 +179,7 @@ def download_raw_metrics(host, cluster, workflow_statistics):
                     response = requests.get(url)
                     f = StringIO(response.content)
                     stats = pd.read_csv(f, header=0, index_col=0, names=[node])
-                    tmp_data.append(stats[node])
+                    tmp_data.append(stats)
                 data[step][group][metric] = pd.concat(tmp_data, axis=1)
     return data
 
@@ -203,11 +193,13 @@ def format_raw_metrics(data, workflow_statistics):
         for group in HOST_GROUPS:
             aggregates = dict()
             for metric in RAW_METRICS:
-                measurements = data[step][group][metric]
+                values = data[step][group][metric]
                 # TODO: cutoff?
                 # Some steps may not execute jobs on all nodes, which may
                 # introduce a bias upon summary statistics.
-                values = measurements[measurements > 0].values
+                index = values > 0
+                if index.any().any():
+                    values = values[index]
                 aggregates[metric] = np.nanmean(values)
             for metric in FORMATTED_METRICS:
                 func = FORMATTED_METRICS[metric]['func']
