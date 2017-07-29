@@ -207,7 +207,7 @@ def format_raw_metrics(data, workflow_statistics):
     return formatted_data
 
 
-def safe_formatted_metrics(data, directory):
+def save_formatted_metrics(data, directory):
     for step in WORKFLOW_STEPS:
         for metric in FORMATTED_METRICS:
             subdirectory = os.path.join(directory, step)
@@ -227,7 +227,7 @@ def load_raw_metrics(directory):
     return data
 
 
-def safe_raw_metrics(data, directory):
+def save_raw_metrics(data, directory):
     for step in WORKFLOW_STEPS:
         for group in HOST_GROUPS:
             for metric in RAW_METRICS:
@@ -296,7 +296,7 @@ if __name__ == '__main__':
     raw_data = download_raw_metrics(args.host, args.cluster, workflow_statistics)
 
     output_dir = os.path.join(args.directory, args.cluster)
-    safe_raw_metrics(raw_data, output_dir)
+    save_raw_metrics(raw_data, output_dir)
 
     formatted_data = format_raw_metrics(raw_data, workflow_statistics)
-    safe_formatted_metrics(formatted_data, output_dir)
+    save_formatted_metrics(formatted_data, output_dir)
