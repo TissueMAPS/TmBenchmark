@@ -4,15 +4,15 @@ set -e
 
 OPTIND=1
 
-NAME=""
+PROVIDER=""
+CLUSTER=""
 HOST=""
 PASSWORD=""
 DATA_DIR=""
 
-usage()
-{
+usage() {
 cat << EOF
-Usage: upload-and-submit.sh -n NAME -h HOST -p PASSWORD -d DATA_DIR
+Usage: upload-and-submit.sh -p PROVIDER -c CLUSTER -H HOST -d DATA_DIR
 
 Uploads image data to a TissueMAPS server to perform a benchmark test:
 
@@ -23,28 +23,27 @@ Uploads image data to a TissueMAPS server to perform a benchmark test:
 - uploads jterator project description from files in YAML format
 - submits workflow for asynchronous remote processing
 
-Assumes that the architecture has been built using setup file "NAME.yaml"
-provided via the Github repository "tissuemaps/tmbenchmark" and the server side
-existence of a TissueMAPS user "mustermann" with matching PASSWORD.
+Assumes that the cluster has been built using setup file "CLUSTER.yaml" and
+that a TissueMAPS user "mustermann" exists server side.
 
 Arguments:
-   -n      name of the architecture
-   -h      IP address of the server to which data should be uploaded to
-   -p      password of the "mustermann" user
+   -p      name of the cloud provider ("sciencecloud", "aws" or "google")
+   -c      name of the cluster
+   -H      IP address of the server to which data should be uploaded to
    -d      path to the directory that contains the microscope files
 EOF
 }
 
-while getopts "n:h:p:d:" opt
+while getopts "c:H:p:d:" opt
 do
     case "$opt" in
-    n)
-        NAME=$OPTARG
+    c)
+        CLUSTER=$OPTARG
         ;;
-    h)
+    H)
         HOST=$OPTARG
         ;;
-    p)  PASSWORD=$OPTARG
+    p)  PROVIDER=$OPTARG
         ;;
     d)  DATA_DIR=$OPTARG
         ;;
@@ -61,9 +60,9 @@ do
     esac
 done
 
-if [[ -z "$HOST" ]] || [[ -z "$PASSWORD" ]] || [[ -z "$PASSWORD" ]] || [[ -z "$NAME" ]]
+if [[ -z "$HOST" ]] || [[ -z "$PROVIDER" ]] || [[ -z "$CLUSTER" ]] || [[ -z "$DATA_DIR" ]]
 then
-    echo "Error: Arguments NAME, HOST, PASSWORD and DATA_DIR are required." >&2
+    echo "Error: Arguments PROVIDER, CLUSTER, HOST and DATA_DIR are required." >&2
     echo
     usage
     exit 1
@@ -85,11 +84,22 @@ then
     exit 1
 fi
 
-BASE_COMMAND () {
-    /usr/bin/time --verbose tm_client -H "$HOST" -u "$USER" -p "$PASSWORD" "$@";
-}
+SUPPORTED_PROVIDERS=('sciencecloud', 'aws', 'google')
+if echo $SUPPORTED_PROVIDERS[@] | grep -q -v -w "$PROVIDER"
+then
+    echo "Error: Unknown provider \"$PROVIDER\"." >&2
+    exit 1
+fi
 
 USER="mustermann"
+read -s -p "Password for user \"$USER\":" PASSWORD
+
+if [[ -z "$PASSWORD" ]]
+then
+    echo "Error: No password entered." >&2
+    exit 1
+fi
+
 EXPERIMENT="benchmark"
 PLATE="plate1"
 ACQUISITION="acquisition1"
@@ -98,6 +108,10 @@ SCRIPT=$(readlink -f "$0")
 SCRIPT_DIR=$(dirname "$SCRIPT")
 WORKFLOW_FILE="$SCRIPT_DIR/workflow.yaml"
 JTPROJECT_DIR="$SCRIPT_DIR/jtproject"
+
+BASE_COMMAND () {
+    /usr/bin/time --verbose tm_client -H "$HOST" -u "$USER" -p "$PASSWORD" "$@";
+}
 
 ALL_COMMANDS () {
     echo "Create experiment \"$EXPERIMENT\""
@@ -122,6 +136,6 @@ ALL_COMMANDS () {
     BASE_COMMAND workflow -e $EXPERIMENT submit
 }
 
-ALL_COMMANDS > "$SCRIPT_DIR/log/$NAME.upload.log" 2>&1
+ALL_COMMANDS > "$SCRIPT_DIR/log/$PROVIDER/$CLUSTER.upload.log" 2>&1
 
 exit 0

@@ -4,7 +4,8 @@ set -e
 
 OPTIND=1
 
-NAME=""
+PROVIDER=""
+CLUSTER=""
 HOST=""
 PASSWORD=""
 DATA_DIR=""
@@ -12,31 +13,34 @@ DATA_DIR=""
 usage()
 {
 cat << EOF
-Usage: download.sh -n NAME -h HOST -p PASSWORD -d DATA_DIR
+Usage: download.sh -p PROVIDER -c CLUSTER -H HOST -d DATA_DIR
 
 Downloads feature data and job statistics from a TissueMAPS server after a benchmark test:
 
 - downloads feature data and metadata for each segmented object of type "Cells"
 - downloads workflow statistics of computational jobs
 
+Assumes that the cluster has been built using setup file "CLUSTER.yaml" and
+that a TissueMAPS user "mustermann" exists server side.
+
 Arguments:
-   -n      name of the architecture
-   -h      IP address of the host to which data should be uploaded to
-   -p      password of the "mustermann" user
+   -p      name of the cloud provider ("sciencecloud", "aws" or "google")
+   -c      name of the cluster
+   -H      IP address of the host to which data should be uploaded to
    -d      path to the directory where data should be saved
 EOF
 }
 
-while getopts "n:h:p:d:" opt
+while getopts "c:H:p:d:" opt
 do
     case "$opt" in
-    n)
-        NAME=$OPTARG
+    c)
+        CLUSTER=$OPTARG
         ;;
-    h)
+    H)
         HOST=$OPTARG
         ;;
-    p)  PASSWORD=$OPTARG
+    p)  PROVIDER=$OPTARG
         ;;
     d)  DATA_DIR=$OPTARG
         ;;
@@ -53,9 +57,9 @@ do
     esac
 done
 
-if [[ -z "$HOST" ]] || [[ -z "$PASSWORD" ]] || [[ -z "$PASSWORD" ]] || [[ -z "$NAME" ]]
+if [[ -z "$HOST" ]] || [[ -z "$DATA_DIR" ]] || [[ -z "$CLUSTER" ]] || [[ -z "$PROVIDER" ]]
 then
-    echo "Error: Arguments NAME, HOST, PASSWORD and DATA_DIR are required." >&2
+    echo "Error: Arguments PROVIDER, CLUSTER, HOST and DATA_DIR are required." >&2
     echo
     usage
     exit 1
@@ -77,33 +81,48 @@ then
     exit 1
 fi
 
-OUTPUT_DIR="$DATA_DIR/$NAME"
+SUPPORTED_PROVIDERS=('sciencecloud', 'aws', 'google')
+if echo $SUPPORTED_PROVIDERS[@] | grep -q -v -w "$PROVIDER"
+then
+    echo "Error: Unknown provider \"$PROVIDER\"." >&2
+    exit 1
+fi
+
+USER="mustermann"
+read -s -p "Password for user \"$USER\":" PASSWORD
+
+if [[ -z "$PASSWORD" ]]
+then
+    echo "Error: No password entered." >&2
+    exit 1
+fi
+
+OUTPUT_DIR="$DATA_DIR/$PROVIDER/$CLUSTER"
 
 if [[ ! -d "$OUTPUT_DIR" ]]
 then
     echo "Create output directory: \"$OUTPUT_DIR\"" 2>&1
-    mkdir "$OUTPUT_DIR"
+    mkdir -p "$OUTPUT_DIR"
 fi
 
-BASE_COMMAND () {
-    /usr/bin/time --verbose tm_client -H "$HOST" -u "$USER" -p "$PASSWORD" "$@"
-}
-
-USER="mustermann"
 EXPERIMENT="benchmark"
 OBJECT_TYPE="Cells"
 
 SCRIPT=$(readlink -f "$0")
 SCRIPT_DIR=$(dirname "$SCRIPT")
 
+BASE_COMMAND () {
+    /usr/bin/time --verbose tm_client -H "$HOST" -u "$USER" -p "$PASSWORD" "$@"
+}
+
 ALL_COMMANDS () {
-    echo "Show detailed workflow status"
-    BASE_COMMAND workflow -e $EXPERIMENT status --depth 5
+    echo "Show workflow status"
+    BASE_COMMAND workflow -e $EXPERIMENT status
 
     echo "Download features to \"$OUTPUT_DIR\""
     BASE_COMMAND feature-values -e $EXPERIMENT download -o $OBJECT_TYPE --directory "$OUTPUT_DIR"
 }
 
-ALL_COMMANDS > "$SCRIPT_DIR/log/$NAME.download.log" 2>&1
+echo ALL_COMMANDS > "$SCRIPT_DIR/log/$PROVIDER/$CLUSTER.download.log" 2>&1
 
 exit 0
