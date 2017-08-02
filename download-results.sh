@@ -101,7 +101,7 @@ OUTPUT_DIR="$DATA_DIR/$PROVIDER/$CLUSTER"
 
 if [[ ! -d "$OUTPUT_DIR" ]]
 then
-    echo "Create output directory: \"$OUTPUT_DIR\"" 2>&1
+    echo "Create output directory: \"$OUTPUT_DIR\""
     mkdir -p "$OUTPUT_DIR"
 fi
 

@@ -5,65 +5,112 @@ TissueMAPS benchmark tests
 Requirements
 ------------
 
-Tests will be controlled from a local machine, which will interact with remote servers running in the cloud over the internet (using *SSH* for deployment and *HTTP* for performing the actual tests).
+Benchmark tests will be controlled from a local machine, which will interact with remote cloud-based servers over the internet (using *SSH* for deployment and *HTTP* for running the tests).
 
 #### Operating system
 
-The controlling machine should be *UNIX* based, i.e. either *MacOSX* or *Linux*, mainly because [Ansible](https://docs.ansible.com/ansible/), which we use to deploy *TissueMAPS* on the remote servers, doesn't run on *Windows* (see [Ansible docs](https://docs.ansible.com/ansible/intro_windows.html#using-a-windows-control-machine) for details).
+The controlling machine should be *UNIX* based, i.e. either *MacOSX* or *Linux*, mainly because [Ansible](https://docs.ansible.com/ansible/), which we use to deploy *TissueMAPS* in the cloud, doesn't run on *Windows* (see [Ansible docs](https://docs.ansible.com/ansible/intro_windows.html#using-a-windows-control-machine) for details).
+
 
 #### Software
 
-The controlling machine further needs to have [Python](https://www.python.org/) installed (both Python 2 and 3 are supported) as well as its package manager [pip](https://pip.pypa.io/en/stable/).
+The controlling machine further needs to have [Python](https://www.python.org/) installed as well as its package manager [pip](https://pip.pypa.io/en/stable/).
 
-In addition, it needs [OpenSSH](https://www.openssh.com/), [OpenSSL](https://www.openssl.org/), [GCC](https://gcc.gnu.org/>) and [time](https://www.gnu.org/software/time/).
+In addition, you need [git](https://git-scm.com/), [OpenSSH](https://www.openssh.com/), [OpenSSL](https://www.openssl.org/), [GCC](https://gcc.gnu.org/>) and [time](https://www.gnu.org/software/time/).
 
-Install the [tmdeploy](https://pypi.python.org/pypi/tmdeploy) and [tmclient](https://pypi.python.org/pypi/tmclient) Python packages from PyPi. For this, you can use a [Python virtual environment](https://virtualenv.pypa.io/en/stable/):
-
-    $ pip install virtualenv
-    $ virtualenv ~/.envs/tmaps
-    $ source ~/.envs/tmaps/bin/activate
-
-    $ pip install tmdeploy tmclient
-
-#### Data
-
-You will need a dataset to run the tests against. We are working on making datasets publicly available.
-
-
-#### Installation for CentOS-7 Linux distribution
-
-Install system packages as `root` user:
-
-    $ yum update
-    $ yum install -y git gcc epel-release time openssl-devel python-devel python-setuptools python-pip
-
-    $ pip install -U pip setuptools
-
-Install Python packages as non-privilaged user:
-
-    $ pip install --user tmclient tmdeploy
-
-
-Provisioning and deployment
----------------------------
-
-Clone this repository:
+Tests are performed by Bash scripts provided via the *tmbenchmark* repository:
 
     $ git clone https://github.com/tissuemaps/tmbenchmarks ~/tmbenchmarks
 
-Specify, which of the architectures you would like to set up and run the tests against. To this end, pick one of the setup files for one of the architectures, for example ``cluster-32`` to build a small cluster with 32 CPU cores for compute resources:
+These scripts use command line interfaces exposed by the [tmdeploy](https://pypi.python.org/pypi/tmdeploy) and [tmclient](https://pypi.python.org/pypi/tmclient) Python packages. We recommend installing packages into a separate [Python virtual environment](https://virtualenv.pypa.io/en/stable/):
 
-    $ ~/tmbenchmarks/build.sh cluster-32
+    $ virtualenv ~/.envs/tmbenchmark
+    $ source ~/.envs/tmbenchmark/bin/activate
+    $ pip install -r ~/tmbenchmarks/requirements.txt
 
-Running the actual test
------------------------
 
-Once the required infrastructure has been provisioned and the software deployed, you can run the test:
+#### Data
 
-    $ ~/tmbenchmarks/upload-and-submit.sh -n cluster-32 -h $HOST -p $PASSWORD -d $DATA_DIR
+Benchmarks are based on the image-based transcriptomics data set ([Battich et al. 2013](https://www.nature.com/nmeth/journal/v10/n11/full/nmeth.2657.html?foxtrotcallback=true)). Images are publicly available on [figshare](https://figshare.com):
 
-where ``HOST`` is the public IP address of the cloud virtual machine that hosts the *TissueMAPS* web server, ``PASSWORD`` is the password of the user that you specified in the setup file and ``DATA_DIR`` is the path to a local directory that contains the microscope files that should be upload.
+    $ wget
 
-You can use the ``tm_inventory`` command line tool to list metadata about machines that have been set up in the cloud (including their IP addresses):
+> FIXME
 
+
+#### Example installation for CentOS-7 Linux distribution
+
+Install system packages as `root` user:
+
+    $ yum update -y
+    $ yum install -y git gcc epel-release time openssl-devel
+    $ yum install -y python-devel python-setuptools python-pip python-virtualenv
+
+Install Python packages as non-privilaged user into virtual environment:
+
+    $ virtualenv ~/.envs/tmbenchmark
+    $ source ~/.envs/tmbenchmark/bin/activate
+    $ pip install ~/tmbenchmark/requirements.txt
+
+
+Provisioning infrastructure and deploying software
+--------------------------------------------------
+
+The ``setup`` subdirectory of the repository provides setup configuration files to build architectures using the ``tm_deploy`` command line tool.
+
+There are two types of architectures:
+
+    * standalone: single-server setup
+    * cluster: multi-server setup with separate compute, filesytem and database servers (and a monitoring system)
+
+The number indicates the total number of CPU cores that are allocated to *TissueMAPS* for parallel execution of computational jobs. Note that in case of a ``standalone`` setup, the database servers run on the same host. We therefore use machine flavors with more CPU cores to provide dedicated resources to the database servers to prevent that they compete with computational jobs for resources. In case of a ``cluster`` setup, the database servers reside on separte hosts.
+
+Specify your cloud provider and the cluster architectures which you would like to set up and run the tests against. For example, to build a cluster with 32 CPU cores on ScienceCloud:
+
+    $ ~/tmbenchmarks/build.sh -p sciencecloud -c cluster-32
+
+The setup files can be found in ``~/tmbenchmark/setup/sciencecloud/``.
+
+Run benchmark tests
+-------------------
+
+Once the required infrastructure has been provisioned and the software has been deployed, you can run the test:
+
+    $ ~/tmbenchmarks/upload-and-submit.sh -p sciencecloud -c cluster-32 -H $HOST -d $DATA_DIR
+
+where ``HOST`` is the public IP address of the cloud virtual machine that hosts the *TissueMAPS* web server and ``DATA_DIR`` is the path to a local directory that contains the microscope files that should be upload.
+
+You can use the ``tm_inventory`` command line tool to list metadata about servers that have been set up in the cloud (including their IP addresses):
+
+    $ export TM_SETUP=$HOME/tmbenchmark/setup/sciencecloud/cluster-32.yaml
     $ tm_inventory --list
+
+Download analysis results
+-------------------------
+
+Once the test has completely, you can download the extracted single-cell feature data:
+
+    $ ~/tmbenchmark/download-results.sh -p sciencecloud -c cluster-32 -H $HOST -d $DATA_DIR
+
+This will write the results as *CSV* files into ``$DATA_DIR/sciencecloud/cluster-32``
+
+
+Download test statistics
+------------------------
+
+The ``tasks`` database table contains the columns ``created_at`` and ``updated_at``, which can be used to calculate the total duration of the workflow. These columns are not exposed via the *REST* API, so you need to obtain this information directly from the database.
+
+To this end, connect to to the machine that hosts the web server via *SSH* using the key pair that you specified in the setup file:
+
+    $ ssh -i ~/.ssh/tmaps_setup centos@$HOST
+
+On the remote host, connect to the database (using the ``db`` alias) and calculate the duration of the workflow by computing the time interval between ``created_at`` and ``updated_at``:
+
+    $ db -c "SELECT updated_at - created_at FROM tasks WHERE type = 'Workflow'"
+
+
+Logs
+----
+
+The provided scripts will automatically place log files in `~/tmbenchmark/logs`.
+

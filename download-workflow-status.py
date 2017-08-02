@@ -52,11 +52,15 @@ if __name__ == '__main__':
         help='IP address or DNS name of the TissueMAPS server'
     )
     parser.add_argument(
+        '-p', '--provider', required=True,
+        help='name of the cloud provider'
+    )
+    parser.add_argument(
         '-c', '--cluster', required=True,
         help='name of the cluster'
     )
     parser.add_argument(
-        '-d', '--directory', required=True,
+        '-d', '--data-dir', dest='data_dir', required=True,
         help='path to a directory on disk where data should be stored'
     )
 
@@ -70,5 +74,10 @@ if __name__ == '__main__':
 
     data = download_workflow_statistics(args.host, user, password)
 
-    filename = os.path.join(args.directory, '{}_jobs.csv'.format(args.cluster))
+    output_dir = os.path.join(args.data_dir, args.provider)
+    if not os.path.exists(output_dir):
+        print('Create output directory: {}'.format(output_dir))
+        os.makedirs(output_dir)
+
+    filename = os.path.join(output_dir, '{}_jobs.csv'.format(args.cluster))
     save_workflow_statistics(data, filename)

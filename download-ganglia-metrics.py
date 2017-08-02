@@ -279,6 +279,10 @@ if __name__ == '__main__':
         help='IP address or DNS name of the Ganglia server'
     )
     parser.add_argument(
+        '-p', '--provider', required=True,
+        help='name of the cloud provider'
+    )
+    parser.add_argument(
         '-c', '--cluster', required=True,
         help='name of the cluster'
     )
@@ -290,13 +294,16 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     workflow_stats_filename = os.path.join(
-        args.directory, '{}_jobs.csv'.format(args.cluster)
+        args.data_dir, args.provider, '{}_jobs.csv'.format(args.cluster)
     )
     workflow_statistics = load_workflow_statistics(workflow_stats_filename)
     raw_data = download_raw_metrics(args.host, args.cluster, workflow_statistics)
 
-    output_dir = os.path.join(args.directory, args.cluster)
-    save_raw_metrics(raw_data, output_dir)
+    output_dir = os.path.join(args.data_dir, args.provider, args.cluster)
+    if not os.path.exists(output_dir):
+        print('Create output directory: {}'.format(output_dir))
+        os.makedirs(output_dir)
 
+    save_raw_metrics(raw_data, output_dir)
     formatted_data = format_raw_metrics(raw_data, workflow_statistics)
     save_formatted_metrics(formatted_data, output_dir)
