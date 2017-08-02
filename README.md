@@ -92,25 +92,26 @@ Once the test has completely, you can download the extracted single-cell feature
 
     $ ~/tmbenchmark/download-results.sh -p sciencecloud -c cluster-32 -H $HOST -d $DATA_DIR
 
-This will write the results as *CSV* files into ``$DATA_DIR/sciencecloud/cluster-32``
+This will write the results as *CSV* files into ``$DATA_DIR/sciencecloud/cluster-32/results``
 
 
-Download test statistics
+Download workflow status
 ------------------------
 
-The ``tasks`` database table contains the columns ``created_at`` and ``updated_at``, which can be used to calculate the total duration of the workflow. These columns are not exposed via the *REST* API, so you need to obtain this information directly from the database.
+To calculate duration and speedup of workflow processing, you can download the status for computational jobs:
 
-To this end, connect to to the machine that hosts the web server via *SSH* using the key pair that you specified in the setup file:
+    $ download-workflow-status.py -p sciencecloud -c cluster-32 -H $HOST -d $DATA_DIR
 
-    $ ssh -i ~/.ssh/tmaps_setup centos@$HOST
+This will store the job information in CSV format in ``$DATA_DIR/sciencecloud/cluster-32_jobs.csv``.
 
-On the remote host, connect to the database (using the ``db`` alias) and calculate the duration of the workflow by computing the time interval between ``created_at`` and ``updated_at``:
+Download Ganglia metrics
+------------------------
 
-    $ db -c "SELECT updated_at - created_at FROM tasks WHERE type = 'Workflow'"
+    $ download-workflow-status.py -p sciencecloud -c cluster-32 -H $HOST -d $DATA_DIR
 
+This will store the raw metrics as individual files in CSV format in ``$DATA_DIR/sciencecloud/cluster-32`` as a separate subfolder for each step and computed aggregates in CSV format in ``$DATA_DIR/sciencecloud/cluster-32_metrics.csv``.
 
 Logs
 ----
 
-The provided scripts will automatically place log files in `~/tmbenchmark/logs`.
-
+The provided scripts will automatically redirect standard output and error to dedicated log files in `~/tmbenchmark/logs`.
